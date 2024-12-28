@@ -1,8 +1,10 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 import { User } from '../types';
+import { api } from '../lib/api';
 
 interface AuthContextType {
   user: User | null;
+  token: string | null;
   loading: boolean;
   signIn: (email: string, password: string) => Promise<void>;
   signOut: () => void;
@@ -15,25 +17,50 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const savedUser = localStorage.getItem('user');
     return savedUser ? JSON.parse(savedUser) : null;
   });
+  const [token, setToken] = useState<string | null>(() => {
+    return localStorage.getItem('token');
+  });
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    // Check if token is valid on mount
+    const validateToken = async () => {
+      const storedToken = localStorage.getItem('token');
+      if (!storedToken) {
+        signOut();
+        return;
+      }
+
+      try {
+        // Try to make a request to validate the token
+        await api.tickets.list();
+      } catch (error) {
+        console.error('Token validation error:', error);
+        signOut();
+      }
+    };
+
+    validateToken();
+  }, []);
 
   const signIn = async (email: string, password: string) => {
     setLoading(true);
     try {
-      // Simple test credentials
-      if (email === 'test@test.com' && password === 'test') {
-        const testUser = {
-          id: '1',
-          email: 'test@test.com',
-          full_name: 'Test User',
-          created_at: new Date().toISOString()
-        };
-        localStorage.setItem('user', JSON.stringify(testUser));
-        setUser(testUser);
-        return;
+      const data = await api.auth.login(email, password);
+      if (data.token && data.user) {
+        localStorage.setItem('token', data.token);
+        localStorage.setItem('user', JSON.stringify(data.user));
+        setToken(data.token);
+        setUser(data.user);
+      } else {
+        throw new Error('Invalid response from server');
       }
-      throw new Error('Invalid credentials');
     } catch (error) {
+      console.error('Login error:', error);
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      setToken(null);
+      setUser(null);
       throw error;
     } finally {
       setLoading(false);
@@ -41,12 +68,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   const signOut = () => {
+    localStorage.removeItem('token');
     localStorage.removeItem('user');
     setUser(null);
+    setToken(null);
   };
 
   return (
-    <AuthContext.Provider value={{ user, loading, signIn, signOut }}>
+    <AuthContext.Provider value={{ user, token, loading, signIn, signOut }}>
       {children}
     </AuthContext.Provider>
   );
