@@ -20,10 +20,12 @@ export function TicketTable({ tickets, onTicketUpdate }: TicketTableProps) {
   };
 
   const sortedTickets = [...tickets].sort((a, b) => {
+    const aValue = a[sortField] ?? '';
+    const bValue = b[sortField] ?? '';
     if (sortDirection === 'asc') {
-      return a[sortField] > b[sortField] ? 1 : -1;
+      return aValue > bValue ? 1 : -1;
     }
-    return a[sortField] < b[sortField] ? 1 : -1;
+    return aValue < bValue ? 1 : -1;
   });
 
   return (
@@ -34,10 +36,10 @@ export function TicketTable({ tickets, onTicketUpdate }: TicketTableProps) {
             <th
               scope="col"
               className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer"
-              onClick={() => handleSort('title')}
+              onClick={() => handleSort('subject')}
             >
               <div className="flex items-center space-x-1">
-                <span>Title</span>
+                <span>Subject</span>
                 <ArrowUpDown className="h-4 w-4" />
               </div>
             </th>
@@ -71,6 +73,14 @@ export function TicketTable({ tickets, onTicketUpdate }: TicketTableProps) {
                 <ArrowUpDown className="h-4 w-4" />
               </div>
             </th>
+            <th
+              scope="col"
+              className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+            >
+              <div className="flex items-center space-x-1">
+                <span>Full Content</span>
+              </div>
+            </th>
             <th scope="col" className="relative px-6 py-3">
               <span className="sr-only">Actions</span>
             </th>
@@ -80,15 +90,16 @@ export function TicketTable({ tickets, onTicketUpdate }: TicketTableProps) {
           {sortedTickets.map((ticket) => (
             <tr key={ticket.id} className="hover:bg-gray-50">
               <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                {ticket.title}
+                {ticket.subject}
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
                 <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full
                   ${ticket.priority === 'high' ? 'bg-red-100 text-red-800' : ''}
                   ${ticket.priority === 'medium' ? 'bg-yellow-100 text-yellow-800' : ''}
                   ${ticket.priority === 'low' ? 'bg-green-100 text-green-800' : ''}
+                  ${!ticket.priority ? 'bg-gray-100 text-gray-800' : ''}
                 `}>
-                  {ticket.priority.charAt(0).toUpperCase() + ticket.priority.slice(1)}
+                  {ticket.priority ? ticket.priority.charAt(0).toUpperCase() + ticket.priority.slice(1) : 'None'}
                 </span>
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
@@ -104,6 +115,13 @@ export function TicketTable({ tickets, onTicketUpdate }: TicketTableProps) {
               </td>
               <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                 {format(new Date(ticket.created_at), 'MMM dd, yyyy')}
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                {ticket.has_full_content && (
+                  <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-purple-100 text-purple-800">
+                    Full Content Available
+                  </span>
+                )}
               </td>
               <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                 <button className="text-gray-400 hover:text-gray-500">

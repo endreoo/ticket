@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { api } from '../lib/api';
 import toast from 'react-hot-toast';
-import { Mail, Paperclip, Loader, X, Search } from 'lucide-react';
+import { Mail, Paperclip, Loader, X, Search, ChevronLeft, ChevronRight } from 'lucide-react';
 import { EmailView } from '../components/tickets/EmailView';
 import debounce from 'lodash/debounce';
 
@@ -23,9 +23,9 @@ interface Ticket {
 }
 
 interface PaginationMetadata {
-  total: number;
-  page: number;
-  limit: number;
+  totalItems: number;
+  currentPage: number;
+  itemsPerPage: number;
   totalPages: number;
 }
 
@@ -33,10 +33,10 @@ export function TicketsPage() {
   const [tickets, setTickets] = useState<Ticket[]>([]);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
-  const [hasMore, setHasMore] = useState(true);
+  const [limit, setLimit] = useState(10);
+  const [total, setTotal] = useState(0);
   const [selectedTicket, setSelectedTicket] = useState<Ticket | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const observer = useRef<IntersectionObserver>();
   const { token } = useAuth();
   const currentSearchRef = useRef(searchTerm);
 
@@ -46,19 +46,13 @@ export function TicketsPage() {
       console.log('Fetching tickets with search:', search);
       const response = await api.tickets.list({ 
         page: pageNum, 
-        limit: 10,
+        limit,
         search: search || undefined
       });
       console.log('API Response:', response);
       const { tickets: newTickets, pagination } = response;
-      
-      if (pageNum === 1) {
-        setTickets(newTickets);
-      } else {
-        setTickets(prev => [...prev, ...newTickets]);
-      }
-      
-      setHasMore(pageNum < pagination.totalPages);
+      setTickets(newTickets || []);
+      setTotal(pagination.totalItems);
     } catch (error) {
       console.error('Error fetching tickets:', error);
       toast.error('Failed to load tickets');
@@ -90,28 +84,13 @@ export function TicketsPage() {
 
   // Handle pagination
   useEffect(() => {
-    if (page > 1) {
-      fetchTickets(page, currentSearchRef.current);
-    }
-  }, [page]);
+    fetchTickets(page, currentSearchRef.current);
+  }, [page, limit]);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log('Search input changed:', e.target.value);
     setSearchTerm(e.target.value);
   };
-
-  const lastTicketElementRef = useCallback((node: HTMLDivElement) => {
-    if (loading) return;
-    if (observer.current) observer.current.disconnect();
-    
-    observer.current = new IntersectionObserver(entries => {
-      if (entries[0].isIntersecting && hasMore) {
-        setPage(prevPage => prevPage + 1);
-      }
-    });
-    
-    if (node) observer.current.observe(node);
-  }, [loading, hasMore]);
 
   const getStatusColor = (status: string) => {
     switch (status.toLowerCase()) {
@@ -139,6 +118,34 @@ export function TicketsPage() {
     }
   };
 
+  const totalPages = Math.ceil(total / limit);
+
+  const getVisiblePages = () => {
+    const delta = 2; // Number of pages to show before and after current page
+    const pages = [];
+    const leftBound = Math.max(1, page - delta);
+    const rightBound = Math.min(totalPages, page + delta);
+
+    // Always show first page
+    if (leftBound > 1) {
+      pages.push(1);
+      if (leftBound > 2) pages.push('...');
+    }
+
+    // Add pages around current page
+    for (let i = leftBound; i <= rightBound; i++) {
+      pages.push(i);
+    }
+
+    // Always show last page
+    if (rightBound < totalPages) {
+      if (rightBound < totalPages - 1) pages.push('...');
+      pages.push(totalPages);
+    }
+
+    return pages;
+  };
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-6">
@@ -156,10 +163,9 @@ export function TicketsPage() {
       </div>
       
       <div className="space-y-6">
-        {tickets.map((ticket, index) => (
+        {tickets.map((ticket) => (
           <div
             key={ticket.id}
-            ref={index === tickets.length - 1 ? lastTicketElementRef : undefined}
             className="bg-white rounded-lg shadow-sm p-6"
           >
             <EmailView
@@ -199,6 +205,90 @@ export function TicketsPage() {
             <Loader className="h-6 w-6 animate-spin text-gray-500" />
           </div>
         )}
+      </div>
+
+      {/* Pagination */}
+      <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6 mt-6">
+        <div className="flex flex-1 justify-between sm:hidden">
+          <button
+            onClick={() => setPage(p => Math.max(1, p - 1))}
+            disabled={page === 1}
+            className="relative inline-flex items-center rounded-md bg-white px-4 py-2 text-sm font-medium text-[#00BCD4] hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed shadow-sm ring-1 ring-inset ring-gray-300"
+          >
+            Previous
+          </button>
+          <button
+            onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+            disabled={page === totalPages}
+            className="relative ml-3 inline-flex items-center rounded-md bg-white px-4 py-2 text-sm font-medium text-[#00BCD4] hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed shadow-sm ring-1 ring-inset ring-gray-300"
+          >
+            Next
+          </button>
+        </div>
+        <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
+          <div>
+            <p className="text-sm text-gray-700">
+              Showing <span className="font-medium">{Math.min((page - 1) * limit + 1, total)}</span> to{' '}
+              <span className="font-medium">{Math.min(page * limit, total)}</span> of{' '}
+              <span className="font-medium">{total}</span> results
+            </p>
+          </div>
+          <div className="flex items-center gap-6">
+            <select
+              value={limit}
+              onChange={(e) => {
+                setLimit(Number(e.target.value));
+                setPage(1);
+              }}
+              className="block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-[#00BCD4] sm:text-sm sm:leading-6 cursor-pointer hover:bg-gray-50"
+            >
+              <option value="10">10 per page</option>
+              <option value="25">25 per page</option>
+              <option value="50">50 per page</option>
+              <option value="100">100 per page</option>
+            </select>
+            <nav className="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
+              <button
+                onClick={() => setPage(p => Math.max(1, p - 1))}
+                disabled={page === 1}
+                className="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <span className="sr-only">Previous</span>
+                <ChevronLeft className="h-5 w-5" aria-hidden="true" />
+              </button>
+              {getVisiblePages().map((number, index) => (
+                number === '...' ? (
+                  <span
+                    key={`ellipsis-${index}`}
+                    className="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-300"
+                  >
+                    ...
+                  </span>
+                ) : (
+                  <button
+                    key={number}
+                    onClick={() => setPage(number as number)}
+                    className={`relative inline-flex items-center px-4 py-2 text-sm font-semibold ${
+                      page === number
+                        ? 'z-10 bg-[#00BCD4] text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00BCD4] hover:bg-[#00ACC1]'
+                        : 'text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0'
+                    }`}
+                  >
+                    {number}
+                  </button>
+                )
+              ))}
+              <button
+                onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+                disabled={page === totalPages}
+                className="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <span className="sr-only">Next</span>
+                <ChevronRight className="h-5 w-5" aria-hidden="true" />
+              </button>
+            </nav>
+          </div>
+        </div>
       </div>
 
       {/* Ticket Modal */}

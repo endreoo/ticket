@@ -1,4 +1,5 @@
-import { User, Booking, Ticket, Hotel, Contact, Guest } from '../types';
+import { User, Booking, Ticket, Guest } from '../types';
+import type { Hotel, Contact, HotelContact } from '../types/database';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://37.27.56.102:5181';
 
@@ -56,22 +57,23 @@ async function request<T>(
   }
 }
 
-interface PaginationParams {
+export interface PaginationParams {
   page?: number;
   limit?: number;
   search?: string;
+  status?: string;
+  priority?: string;
 }
 
-interface PaginationMetadata {
-  total: number;
-  page: number;
-  limit: number;
-  totalPages: number;
-}
-
-interface PaginatedResponse<T> {
-  tickets: T[];
-  pagination: PaginationMetadata;
+export interface PaginatedResponse<T> {
+  hotels?: T[];
+  tickets?: T[];
+  pagination: {
+    totalItems: number;
+    currentPage: number;
+    itemsPerPage: number;
+    totalPages: number;
+  };
 }
 
 export const api = {
@@ -116,7 +118,14 @@ export const api = {
       }),
   },
   hotels: {
-    list: () => request<Hotel[]>('/hotels'),
+    list: (params?: PaginationParams) => {
+      const queryParams = new URLSearchParams();
+      if (params?.page) queryParams.append('page', params.page.toString());
+      if (params?.limit) queryParams.append('limit', params.limit.toString());
+      if (params?.search) queryParams.append('search', params.search);
+      const query = queryParams.toString();
+      return request<PaginatedResponse<Hotel>>(`/hotels${query ? `?${query}` : ''}`);
+    },
     getById: (id: string) => request<Hotel>(`/hotels/${id}`),
     create: (hotel: Omit<Hotel, 'id' | 'created_at' | 'updated_at'>) =>
       request<Hotel>('/hotels', {
@@ -130,6 +139,22 @@ export const api = {
       }),
     delete: (id: string) =>
       request<{ message: string }>(`/hotels/${id}`, {
+        method: 'DELETE',
+      }),
+    getContacts: (hotelId: number) =>
+      request<HotelContact[]>(`/hotels/${hotelId}/contacts`),
+    addContact: (hotelId: number, contactData: Omit<HotelContact, 'id'>) =>
+      request<HotelContact>(`/hotels/${hotelId}/contacts`, {
+        method: 'POST',
+        body: JSON.stringify(contactData),
+      }),
+    updateContact: (hotelId: number, contactId: number, data: Partial<HotelContact>) =>
+      request<HotelContact>(`/hotels/${hotelId}/contacts/${contactId}`, {
+        method: 'PUT',
+        body: JSON.stringify(data),
+      }),
+    removeContact: (hotelId: number, contactId: number) =>
+      request<{ message: string }>(`/hotels/${hotelId}/contacts/${contactId}`, {
         method: 'DELETE',
       }),
   },
