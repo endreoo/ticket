@@ -167,6 +167,7 @@ export function TicketsPage() {
               subject={ticket.subject}
               fromEmail={ticket.from_email || ''}
               message={ticket.message}
+              htmlContent={ticket.html_content}
               hasAttachments={ticket.has_attachments}
               createdAt={ticket.created_at}
               hotelName={ticket.hotel_name}
