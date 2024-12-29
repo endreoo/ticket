@@ -59,6 +59,7 @@ async function request<T>(
 interface PaginationParams {
   page?: number;
   limit?: number;
+  search?: string;
 }
 
 interface PaginationMetadata {
@@ -99,6 +100,7 @@ export const api = {
       const queryParams = new URLSearchParams();
       if (params?.page) queryParams.append('page', params.page.toString());
       if (params?.limit) queryParams.append('limit', params.limit.toString());
+      if (params?.search) queryParams.append('search', params.search);
       const query = queryParams.toString();
       return request<PaginatedResponse<Ticket>>(`/tickets${query ? `?${query}` : ''}`);
     },
