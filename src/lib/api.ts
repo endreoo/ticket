@@ -1,4 +1,4 @@
-import { User, Booking, Ticket, Guest } from '../types';
+import type { Booking, Ticket, Guest } from '../types';
 import type { Hotel, Contact, HotelContact } from '../types/database';
 import axios from 'axios';
 
@@ -14,6 +14,12 @@ axios.interceptors.request.use((config) => {
   }
   return config;
 });
+
+interface RequestInit {
+  method?: string;
+  body?: string;
+  headers?: Record<string, string>;
+}
 
 async function request<T>(
   endpoint: string,
@@ -31,7 +37,7 @@ async function request<T>(
       data: options.body ? JSON.parse(options.body as string) : undefined,
       headers: {
         'Content-Type': 'application/json',
-        ...options.headers as Record<string, string>
+        ...options.headers
       }
     });
 
@@ -66,6 +72,19 @@ export interface PaginatedResponse<T> {
     itemsPerPage: number;
     totalPages: number;
   };
+}
+
+interface BertCategory {
+  id: number;
+  name: string;
+  description: string;
+}
+
+interface CategoriesResponse {
+  categories: Array<{
+    id: string;
+    name: string;
+  }>;
 }
 
 export const api = {
@@ -140,6 +159,55 @@ export const api = {
         console.error('BERT API request failed:', error);
         if (axios.isAxiosError(error) && error.response) {
           throw new Error(`BERT analysis failed: ${JSON.stringify(error.response.data)}`);
+        }
+        throw error;
+      }
+    },
+    trainBert: async (data: { ticketId: number, categoryId: string }) => {
+      try {
+        const response = await axios.post('/tickets/train-bert', data);
+        return response.data;
+      } catch (error) {
+        console.error('BERT training request failed:', error);
+        throw error;
+      }
+    },
+    approveTraining: async (trainingId: string) => {
+      try {
+        const response = await axios.put(`/tickets/approve-training/${trainingId}`);
+        return response.data;
+      } catch (error) {
+        console.error('Training approval failed:', error);
+        throw error;
+      }
+    },
+    getCategories: async (): Promise<CategoriesResponse> => {
+      try {
+        console.log('Fetching categories from backend...');
+        const response = await axios.get('/tickets/categories');
+        
+        console.log('Categories response:', response.data);
+        
+        // Handle both array and object responses
+        const categoriesData = response.data.categories || response.data;
+        if (!Array.isArray(categoriesData)) {
+          throw new Error('Invalid response format - categories data is not an array');
+        }
+
+        return {
+          categories: categoriesData.map((category: any) => ({
+            id: category.id.toString(),
+            name: category.name
+          }))
+        };
+      } catch (error) {
+        console.error('Failed to fetch categories:', error);
+        if (axios.isAxiosError(error)) {
+          if (error.response) {
+            throw new Error(`Categories API error: ${error.response.status} - ${JSON.stringify(error.response.data)}`);
+          } else if (error.request) {
+            throw new Error('Could not reach the categories API. Please check if the server is running.');
+          }
         }
         throw error;
       }

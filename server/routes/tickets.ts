@@ -285,4 +285,72 @@ router.post('/analyze-bert', async (req, res) => {
   }
 });
 
+router.post('/train-bert', async (req, res) => {
+  try {
+    const { ticketId, categoryId } = req.body;
+    
+    // Get ticket data
+    const [tickets] = await pool.execute<any[]>(
+      'SELECT * FROM tickets WHERE id = ?',
+      [ticketId]
+    );
+
+    if (tickets.length === 0) {
+      return res.status(404).json({ error: 'Ticket not found' });
+    }
+
+    const ticket = tickets[0];
+    
+    // Send training data to BERT API
+    const response = await axios.post('http://37.27.142.148:5000/api/training_data', {
+      text: ticket.message,
+      subject: ticket.subject,
+      category_id: categoryId,
+      from_email: ticket.from_email
+    });
+
+    res.json(response.data);
+  } catch (error) {
+    console.error('Error training BERT:', error);
+    res.status(500).json({ error: 'Failed to train BERT' });
+  }
+});
+
+router.put('/approve-training/:id', async (req, res) => {
+  try {
+    const trainingId = req.params.id;
+    
+    // Approve training data in BERT API
+    const response = await axios.put(`http://37.27.142.148:5000/api/training_data/validate/${trainingId}`);
+
+    res.json(response.data);
+  } catch (error) {
+    console.error('Error approving training:', error);
+    res.status(500).json({ error: 'Failed to approve training' });
+  }
+});
+
+router.get('/categories', async (req, res) => {
+  try {
+    const response = await axios.get('http://37.27.142.148:5000/api/categories', {
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      timeout: 10000
+    });
+
+    // Transform the response to match the expected format
+    const categories = Array.isArray(response.data) ? response.data.map((category: any) => ({
+      id: category.id.toString(),
+      name: category.name
+    })) : [];
+
+    res.json({ categories }); // Wrap in categories object
+  } catch (error) {
+    console.error('Error fetching categories:', error);
+    res.status(500).json({ error: 'Failed to fetch categories' });
+  }
+});
+
 export const ticketsRouter = router;
