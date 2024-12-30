@@ -1,0 +1,418 @@
+Date: Sun, 29 Dec 2024 15:04:10 +0000
+To: info@kenendiahotelkampala.com, bookings@hotelonline.co, 
+	SamuelASFAHA84@Gmail.com
+From: Channel Manager <bookings@hotelonline.co>
+Reply-To: Channel Manager <bookings@hotelonline.co>
+Subject: New Booking Notification < Kenendia Hotel > - Booking Ref No: [ Kenendia199 ]
+Message-ID: <0100019412f2327b-eccc002b-e259-4479-b9d9-8dd0ecada8b3-000000@email.amazonses.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+X-CUST-SFL: channeldao
+X-CUST-MID: 27643c4ecc2fa7dcbd6a32aedeb513a7
+X-CUST-LOC: CEN
+X-CUST-BCC: [["centrix365@ipms247.com"]]
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_fab5f3b470eb25c46c69135f87141944"
+Feedback-ID: ::1.us-east-1.Wp3yjTq794TZhPeIyHBLi1DteK8HgMnBEAWfbmEJRjk=:AmazonSES
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1735484650;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Feedback-ID;
+	bh=mvHIuyC5uS+JyPzufZpwffVtgr3S5MCITeMWBxvTVZQ=;
+	b=gHenAuX+39RMPR719A08SHJm4jOJxVCQnpL2e/UTgi2qtqehH8cssR2c72H9oajz
+	rl0+GbzR3ezNJqWWFaO9Wnb+lgHq8kT+bCBhBfMU20NA9rWx9VTaj2ZWgWbhjczRgki
+	YSDpa9784RwQ/AZ9qcTJZQTzjc8y67i8JuHv4sTM=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=kd55yplmxcinem26dzgymmx7ewhys3vx; d=hotelonline.co; t=1735484650;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type;
+	bh=mvHIuyC5uS+JyPzufZpwffVtgr3S5MCITeMWBxvTVZQ=;
+	b=MaiG3rUcSjIU9/F5mh2jhp1yJFC+midlsUTg6Wl6b5L/1Si3xzz/zcewytCN+5Lw
+	FcXHNdqO9miajOLjCfSZRPe9YlmwCAAFyXToPKwMFcxtXuZMhkaoHmVn5NTBWN8v5be
+	CgpHUJ1/KrBxmzm4W0EEeh3+bWok2hQsNVOk5jDQ8zM/GwzSGaIe+ydUFd9Eu9yEd2K
+	4kOL41SXLB/SABMac3tmW4OowVGsUk7FMUhim56fQQVOg79xpl2VXSLDCkNSDS9wWc6
+	jFq6V9yYfrjBso8xvUwdNEG76P8Hs9MUOo0QzJXGSGzj928+qOM/iQvOfZA/pE9ua/G
+	AOIdwypWfw==
+
+--b1_fab5f3b470eb25c46c69135f87141944
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Booking
+NotificationChannel : Booking.com
+(2608956)Booking DateTime :
+29-Dec-2024 06:04:09 PM
+				Kenendia
+HotelAddress : KATWE,MUTEBI
+ROAD , PLO 1476/851,Mutebi Road,Katwe, 256 Kampala
+, Kampala - 00000Ph :
++254733280000Email :
+bookings@hotelonline.co
+				Reservation No : Kenendia199Travel
+Agent Voucher No :
+4403582322
+				Guest
+InformationName
+				Robert
+SimpsonCity
+				-Phone+44
+7754 299642
+				Country
+				United KingdomEmailrsimps.329822@guest.booking.com
+				Stay
+Information
+				Check
+In 08-01-2025No.
+Of Rooms 1Check
+Out09-01-2025Total
+Adult2No.
+Of Nights1Total
+Child0RemarksApproximate time of arrival: between
+02:00 and 03:00
+Hello. My plane arrives at 00.15 on the 9th, would
+airport shuttle be available at this
+time?Breakfast is included in the room
+rate.,Cancellation Policy: The guest
+can cancel free of charge until 2 days before
+arrival. The guest will be charged the total price
+of the reservation if they cancel in the 2 days
+before arrival. If the guest doesn’t show up,
+they will be charged the total price of the
+reservation. , Non-Smoking Booker :-
+ ***Genius Booker*** Rate Applied
+:United KingdomCredit
+Card DetailsImportant
+Note: For security reasons, CVV/CVC code will
+appear only for 5 attempts. Please click on the
+below link only when absolutely necessary to get
+the card details. Please
+Click HereRoom
+DetailsRoom
+Type
+											Double Room (260895602) Adult2Rate
+TypeBed & Breakfast (9839281) Child0DayPrice08-01-2025
+											$ 29.97Payment
+DetailsPayment
+Status : Hotel
+COLLECTTotal Amount Inclusive Tax (A)$ 29.97Extra Charges (B)Not
+AvailableDue Amount$ 29.97Total Taxes (VAT@18)$ 4.57Supplier Amount (A+B)$ 29.97Best
+Regards ,HotelOnlineSupport
+Phone : +254 733 280 000 , +254 789 300
+000Support
+Email :
+bookings@hotelonline.coClick
+here to view reservation :
+Kenendia199"Please do not reply to
+this email, this email address is not regularly
+monitored. Please contact your account manager for
+any assistance."
+
+
+--b1_fab5f3b470eb25c46c69135f87141944
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<table style="border:1px solid
+#cccccc;width:100%;" border="0" cellspacing="1"
+cellpadding="0">
+					<tr><td style="padding:
+5px;padding-left:12px;background:none repeat
+scroll 0 0 #eee;width:50%;"><div style="float:
+left;padding: 4px 10px;
+font-family:Verdana,Arial,Helvetica,sans-serif;"><span
+style="font-size:21px;"><b>New Booking
+Notification</b></span><br/><br/><span
+style="font-size:15px;">Channel : Booking.com
+(2608956)</span><br/><span
+style="font-size:15px;">Booking DateTime :
+29-Dec-2024 06:04:09 PM</span></div></td><td
+style="padding:
+5px;padding-left:12px;background:none repeat
+scroll 0 0 #eee;width:50%;">
+				<div style="float: left;padding: 5px;
+font-family:Verdana,Arial,Helvetica,sans-serif;"><span
+style="font-size:21px;">Kenendia
+Hotel</span><br/><br/><span
+style="font-size:15px;">Address : KATWE,MUTEBI
+ROAD , PLO 1476/851,Mutebi Road,Katwe, 256 Kampala
+, Kampala - 00000</span><br/><span
+style="font-size:15px;">Ph :
++254733280000</span><br/><span
+style="font-size:15px;">Email :
+bookings@hotelonline.co</span></div></td></tr></table><br/><table
+style="width:100%; border:1px solid #cccccc;"
+border="0" cellspacing="1" cellpadding="0">
+				<tr><td style="padding:
+5px;padding-left:12px;background:none repeat
+scroll 0 0 #eee;"><span style="font-size:
+15px;">Reservation No : Kenendia199</span></td><td
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0 #eee;"><span style="float:
+right;padding-right: 40px;font-size: 15px;">Travel
+Agent Voucher No :
+4403582322</span></td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;width:100%;"
+border="0" cellspacing="1" cellpadding="0">
+				<tr><td colspan=4 style="padding:
+5px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+><strong>Guest
+Information</strong><br/><br/></td></tr><tr><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Name</td>
+				<td width="30%" style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Robert
+Simpson</td><td width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">City</td>
+				<td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">-</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Phone</td><td
+width="30%" style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">+44
+7754 299642</td>
+				<td width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Country</td>
+				<td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">United Kingdom</td></tr><tr><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Email</td><td
+width="30%" style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">rsimps.329822@guest.booking.com</td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr>
+				<td colspan=4 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"><strong>Stay
+Information</strong><br/><br></td>
+				</tr><tr><td width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Check
+In </td><td width="30%" style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">08-01-2025</td><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">No.
+Of Rooms </td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">1</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Check
+Out</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">09-01-2025</td><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Total
+Adult</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">2</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">No.
+Of Nights</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">1</td><td width="10%" style="padding:
+4px 0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Total
+Child</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">0</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Remarks</td><td
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+colspan=3>Approximate time of arrival: between
+02:00 and 03:00
+Hello. My plane arrives at 00.15 on the 9th, would
+airport shuttle be available at this
+time?<br/>Breakfast is included in the room
+rate.,<br><B>Cancellation Policy:</B> The guest
+can cancel free of charge until 2 days before
+arrival. The guest will be charged the total price
+of the reservation if they cancel in the 2 days
+before arrival. If the guest doesn’t show up,
+they will be charged the total price of the
+reservation. , Non-Smoking<br><br><b> Booker :-
+</b> ***Genius Booker***<br><b> Rate Applied
+:</b>United Kingdom<br/></td></tr><tr><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Credit
+Card Details</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+colspan=3><p><b style="color:#ff0000;">Important
+Note:</b> For security reasons, CVV/CVC code will
+appear only for 5 attempts. Please click on the
+below link only when absolutely necessary to get
+the card details.&nbsp;<a
+href="https://live.ipms247.com/index.php/page/reservation.viewreservation?token=z0P00_W5bo1Tc64CkEt_Wx5FOK36zqtfx7ekOZ7vrC9qzWIlply-ahFi8IPjjItFPDFwMT7cBh22OThZWtqSpE2JxR6n">Please
+Click Here</a></p></td></tr></table><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1"
+cellpadding="0"></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr><td
+colspan=4 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+><strong>Room
+Details</strong><br/><br/></td></tr><tr><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Room
+Type</td>
+											<td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">Double Room (260895602) </td><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Adult</td><td
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">2</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Rate
+Type</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">Bed & Breakfast (9839281) </td><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Child</td><td
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">0</td></tr><tr><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:50%;"><strong>Day</strong></td><td
+colspan=2 style="padding: 4px 10px 4px
+12px;background:none repeat scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+align="right"><strong>Price</strong></td></tr><tr><td
+colspan=2 style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">08-01-2025</td>
+											<td colspan=2 align="right"
+style="padding: 4px 10px 4px 12px;
+font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">$&nbsp;29.97</td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr><td
+colspan=3 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:60%;"><strong>Payment
+Details</strong><br/><br/></td><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:40%;"><strong>Payment
+Status : Hotel
+COLLECT</strong><br/><br/></td></tr><tr><td
+colspan=3 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Total Amount Inclusive Tax (A)</td><td
+colspan=2 style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="20%">$&nbsp;29.97</td></tr><tr><td
+colspan=3 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Extra Charges (B)</td><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">Not
+Available</td></tr></td></tr><tr><td colspan=3
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Due Amount</td><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">$&nbsp;29.97</td></tr><tr><td
+colspan=3 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Total Taxes (VAT@18)</td><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">$&nbsp;4.57</td></tr><tr><td colspan=3
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Supplier Amount (A+B)</td><td
+colspan=2 style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">$&nbsp;29.97</td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr><td
+style="color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;padding:1px;"><span>Best
+Regards ,</span></td></tr><tr><td
+style="color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;padding:1px;"><span><b>HotelOnline</b></span></td></tr><tr></tr><tr><td
+style="color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;padding:1px;"><span>Support
+Phone : +254 733 280 000 , +254 789 300
+000</span></td></tr><tr><td
+style="color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;padding:1px;padding-bottom:10px;"><span>Support
+Email :
+bookings@hotelonline.co</span></td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr><td
+style="font-weight:bold; text-align:center;
+padding: 4px
+0px;padding-left:12px;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"><a
+href="https://live.ipms247.com/index.php/page/reservation.viewtransaction?vwauthtoken=eJwzNLU0NDNAACMjYwAlMAOu">Click
+here to view reservation :
+Kenendia199</a></td></tr></table><br/><br/><p
+style="font:italic 11px
+arial;text-align:center;">"Please do not reply to
+this email, this email address is not regularly
+monitored. Please contact your account manager for
+any assistance."</p>
+
+
+
+--b1_fab5f3b470eb25c46c69135f87141944--
+
+

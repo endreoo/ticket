@@ -1,0 +1,32 @@
+Date: Sun, 29 Dec 2024 07:45:24 +0000
+To: sales@palmtreehotel.co.ke
+From: bookings <bookings@hotelonline.co>
+Reply-To: bookings <bookings@hotelonline.co>
+Subject: Night Audit completed successfully for Al-Yusra Palm Tree Hotel Limited
+Message-ID: <0100019411607e20-a104824f-e9c8-4318-bde4-2aa64110366b-000000@email.amazonses.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+X-CUST-SFL: transactionprocessdao
+X-CUST-MID: 94410e3d5399cc34b2ca717400c137ea
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="b1_689cb090150bb338fb2f6ad2b5eca418"
+Feedback-ID: ::1.us-east-1.Wp3yjTq794TZhPeIyHBLi1DteK8HgMnBEAWfbmEJRjk=:AmazonSES
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+ s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1735458324;
+ h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Feedback-ID;
+ bh=clB5a0z/aIhT7wtU3F5qqqpNgt7uwSBPZlErI/PywZ4=;
+ b=NQCE2hU1yoL2Tr0iPB8vH340eHnbfMZNVDYGvt96617xczz4yaXjhBzbHYrHqwIx
+ 4AhsVobwC3D1dGMVjr9VsNwiA5VLp+bekTj9xRLUoWE/FKyMeGZxdd4fJTGHcdUXA/x
+ kGjyDe4okZGeQAQ3t6GjFJ7cFlYi5zZ4TGSHLWb4=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+ s=kd55yplmxcinem26dzgymmx7ewhys3vx; d=hotelonline.co; t=1735458324;
+ h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type;
+ bh=clB5a0z/aIhT7wtU3F5qqqpNgt7uwSBPZlErI/PywZ4=;
+ b=SASupV2vYyd/5i6oC+p9/oC3GNr/cYQ1cuaYhqm/CdcaUErEd3oNA9N0S0yEGeTw
+ iifvLQ8z/lzCmFuKY4J75Jpb6TQYio85qVQlZxTivMUXlfXVdlB1WHwEuvAV6RwlcD8
+ rahM96xuVa4JJ+OtcTYtUICh/dvuGO8CYOlnyd9ZKg6ytWOQjkIkypA4UCH00UKfKjU
+ spRPjln9jNVbHMlFOYp2MacZbCVLJql1e9oI3jMX4o9WtuOjXMmQ9OlHn6bt6hCx+w6
+ wRIZt8WoTm/RDvc/GipUvetwzU3ksK9JNV2scWGEwAyrfaBs0hrhe1NghVEvidod6c/
+ BIAKSgqJ8A==
+

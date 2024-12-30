@@ -1,0 +1,32 @@
+Date: Sun, 29 Dec 2024 06:24:35 +0000
+To: reservations@capitalheightshotel.co.ke, endre@cityhotels.com
+From: bookings <bookings@hotelonline.co>
+Reply-To: bookings <bookings@hotelonline.co>
+Subject: Night Audit completed successfully for Capital Heights Hotel
+Message-ID: <01000194111682c8-bb88d824-2195-4d9b-94cb-b98658e6d3e3-000000@email.amazonses.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+X-CUST-SFL: transactionprocessdao
+X-CUST-MID: b8fd1ca51f908ec809e02a1101c90941
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="b1_315474a3131920e4ddb0f28d99e09a40"
+Feedback-ID: ::1.us-east-1.Wp3yjTq794TZhPeIyHBLi1DteK8HgMnBEAWfbmEJRjk=:AmazonSES
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+ s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1735453476;
+ h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Feedback-ID;
+ bh=1l+HWWlgN90E4h4aeOuq3Fv5VDyKNPg429iOvQWvw0k=;
+ b=ddiMix7LZFrCFHjFPLzoQpiMA8AQvb85c3Rm4Vi/rvNs3GBAA22QydzTgIVEF8YR
+ JtGOOS4BBDSG0831KzNTFHP/oZFGQeFxcMrcfJKxO/ZOkbKocgv2iPOm/DHzIkWLHtM
+ hPudrp0SRSZ3DHhmJ+daMlRuduTg5khdSSVU9wgU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+ s=kd55yplmxcinem26dzgymmx7ewhys3vx; d=hotelonline.co; t=1735453476;
+ h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type;
+ bh=1l+HWWlgN90E4h4aeOuq3Fv5VDyKNPg429iOvQWvw0k=;
+ b=Sy575rqdjzOra2QUsOJ1ZSkqpQH+bkPeGa7pd2lGdbdRgDwTb2QV8NvocjEADcTB
+ bsslgg7V6beEJbMHWoEBF6pSsgmh0RRXOBy7Mcvjai72epb1+SQZmbulGHCKWt6gk1I
+ 4uiZ/lEapDCCOwrYHGngiBz1ixhlr5OR3qqGKLCIMuInt33wUqW/V8i11qsMuC9FaAq
+ U5m0SJZIRjTbvJlu+uDe0S95ZTnojHWLBvQIZ0fVn4zbrKmKOo3h9oPfTaqqiWd70X5
+ aZXFr00Zg/P16FFtWPRXZ7YK1BtEB9MuERlI9viUFNd4YfbWYBdj6ikOOud5mRPIjSG
+ fFx09mgU3A==
+

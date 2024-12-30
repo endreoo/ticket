@@ -1,0 +1,1595 @@
+Date: Sun, 29 Dec 2024 07:42:22 +0000
+To: sales@palmtreehotel.co.ke
+From: Al-Yusra Palm Tree Hotel Limited <bookings@hotelonline.co>
+Reply-To: Al-Yusra Palm Tree Hotel Limited <bookings@hotelonline.co>
+Subject: Todays Booking and Next days Booking List for Al-Yusra Palm Tree Hotel Limited
+Message-ID: <01000194115db786-f9e2accd-fe2b-4d00-b1e2-8cddb19d1a1a-000000@email.amazonses.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+X-CUST-SFL: transactionprocessdao
+X-CUST-MID: d9cb5189ebd64dc425d81006b1b1c6aa
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="b1_81fb58af5c75ca6a5cff53bd4ebadc8e"
+Feedback-ID: ::1.us-east-1.Wp3yjTq794TZhPeIyHBLi1DteK8HgMnBEAWfbmEJRjk=:AmazonSES
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1735458142;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Feedback-ID;
+	bh=hSmPcjGVjLpkHRfn16h2XPYa53O7/ZSTOr/4/YgHmus=;
+	b=V/HdwVZIpRN41BWsdadR3w6TtGQ/ZkhYvaXTkNU6kwHTzh1yZJ6Hwb984inaWGEA
+	tb2g/tZGqSNV41CV0j4nMeVXBaeU14av1C4Qhkj7lLTbnGISCNGcFqFUmyHCZhdy+pJ
+	kdc2hWkNTy1vzRhk3sKtbeSeIo5n84b3rW3GpUgU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=kd55yplmxcinem26dzgymmx7ewhys3vx; d=hotelonline.co; t=1735458142;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type;
+	bh=hSmPcjGVjLpkHRfn16h2XPYa53O7/ZSTOr/4/YgHmus=;
+	b=ScPLHAD+DlD5Z+/v7b/C5atzHHiakRtRqs2buz7ixBwiWFVq1JJfqWoR+ixwZ3Cn
+	N6MXNzg2bkrsRTPHBrOomzMHMnkxJvctz0y3c2J3WXS4Qi++8tY9IlVTuVfgEDMCWyQ
+	D+8calytrgxn9VPZUksYZRuIGmdDjr9Uhzk2c8pGkz+GH4XsDn7N8cRTpP1+HeGt9SG
+	fyx3yXwevELaMPSa7aTqj2ABHZ01E1oOnYbYlW+PGtBwsyBwMot+0N8c0iH4Kg4nHZU
+	IqXTiiVW9jToi/jLdnWr+CHLskjj+6jLcm/HCPBzIf97mtFbjxvC/Kr38gNSr8hw4uI
+	hG2P03j4qQ==
+
+--b1_81fb58af5c75ca6a5cff53bd4ebadc8e
+Content-Type: multipart/alternative;
+	boundary="b2_81fb58af5c75ca6a5cff53bd4ebadc8e"
+
+--b2_81fb58af5c75ca6a5cff53bd4ebadc8e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Al-Yusra Palm Tree Hotel Limited		Nkrumah Road, Mombasa,
+						Kenya
+						
+						sales@palmtreehotel.co.ke
+						
+						Phone : +254 720 331 833
+						
+						
+						
+						
+						
+						Dear Al-Yusra Palm Tree Hotel Limited,
+						Below is your Al-Yusra Palm Tree Hotel Limited confirmed bookings list that you need to acknowledge:
+					
+								Today's Confirm Check-In : 3 Booking | 39 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  (Ksh)
+								
+									    Business Source : NA
+									   
+											   2183-1
+											   Mr. RALIA LUCKY
+											   38 - Barizi Room
+											   2
+											   
+											   29/12/2024 12:00:00 PM
+											   01/01/2025
+											   18000
+											   
+											   2183-2
+											   Mr. RALIA LUCKY
+											   35 - Barizi Room
+											   2
+											   
+											   29/12/2024 12:00:00 PM
+											   01/01/2025
+											   18000
+											   
+											   2375
+											   Mr. MAHAMOUD
+											   13 - Barizi Room
+											   2
+											   
+											   29/12/2024 12:00:00 PM
+											   30/12/2024
+											   6000
+											   
+					
+								Staying Over : 18 Booking | 39 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  (Ksh)
+								
+									    Business Source : NA
+									   
+											   68
+											   Mr. Yussuf Hussein
+											   16 - Barizi Room
+											   1
+											   
+											   15/11/2023 12:41:00 PM
+											   31/12/2024
+											   0
+											   
+											   2340
+											   Mr. IBRA
+											   33 - Barizi Room
+											   3
+											   
+											   29/09/2024 03:23:00 PM
+											   31/12/2024
+											   0
+											   
+											   2238
+											   Mr. MOHAMED HERSI
+											   19 - Barizi Room
+											   1
+											   
+											   12/12/2024 07:15:02 PM
+											   01/01/2025
+											   0
+											   
+											   2320
+											   Mr. ABDINASSIR MOHAMED HARET
+											   11 - Barizi Room
+											   2
+											   
+											   22/12/2024 02:49:56 PM
+											   31/12/2024
+											   11000
+											   
+											   2332
+											   Mr. CHAIRMAN
+											   01 - Barizi Room
+											   1
+											   
+											   22/12/2024 04:01:30 PM
+											   31/12/2024
+											   0
+											   
+											   2353
+											   Mr. MOHAMED ABDULLAHI GOSAR
+											   04 - Barizi Room
+											   1
+											   
+											   24/12/2024 08:31:51 AM
+											   30/12/2024
+											   27000
+											   
+											   3315
+											   Mr. MOHA BAKAI
+											   26 - Sultan
+											   3
+											   
+											   24/12/2024 03:53:00 PM
+											   31/12/2024
+											   0
+											   
+											   2358
+											   Mr. MEENA EDWARD CHIYENZI
+											   34 - Barizi Room
+											   1
+											   
+											   25/12/2024 09:37:07 AM
+											   30/12/2024
+											   0
+											   
+											   2359
+											   Mr. MEENA EDWARD CHIYENZI
+											   14 - Barizi Room
+											   2
+											   
+											   25/12/2024 09:38:12 AM
+											   30/12/2024
+											   0
+											   
+											   2349
+											   Mr. ABDULLAHI MOHAMED ABDI
+											   10 - Barizi Room
+											   1
+											   
+											   25/12/2024 10:09:34 AM
+											   31/12/2024
+											   27000
+											   
+											   2361
+											   Mr. ABDIRASHID HASSAN MOHAMED
+											   03 - Barizi Room
+											   2
+											   
+											   26/12/2024 09:01:19 AM
+											   30/12/2024
+											   18000
+											   
+											   2344
+											   Mr. EVANS KARANI MUIYURO
+											   37 - Barizi Room
+											   2
+											   
+											   26/12/2024 01:57:25 PM
+											   30/12/2024
+											   12000
+											   
+											   3333
+											   Mr. EVANS KARANI MUIYURO
+											   28 - Barizi Room
+											   2
+											   
+											   26/12/2024 02:29:00 PM
+											   30/12/2024
+											   12000
+											   
+											   2368
+											   Ms. AMIRA ABDULLAHI SIRAT
+											   02 - Barizi Room
+											   2
+											   
+											   27/12/2024 11:23:15 AM
+											   01/01/2025
+											   12500
+											   
+											   2313-2
+											   Mr. SUHAYBA YUSUFU NKONDO
+											   32 - Barizi Room
+											   1
+											   
+											   27/12/2024 07:12:04 PM
+											   01/01/2025
+											   17500
+											   
+											   2383
+											   Mr. ABDIHAFID MOHAMED
+											   29 - Barizi Room
+											   1
+											   
+											   28/12/2024 05:53:21 PM
+											   30/12/2024
+											   0
+											   
+											   3359
+											   Mr. SUHAYBA YUSUFU NKONDO
+											   09 - Barizi Room
+											   2
+											   
+											   28/12/2024 08:52:00 PM
+											   30/12/2024
+											   9000
+											   
+									    Business Source : Walk-in
+									   
+											   2388
+											   Mr. HASSAN AHMED ABDALLAH
+											   31 - Barizi Room
+											   1
+											   
+											   28/12/2024 09:59:08 AM
+											   31/12/2024
+											   10500
+											   
+					
+								Today's Check-Out : 19 Booking | 39 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  (Ksh)
+								
+									    Business Source : NA
+									   
+											   2232
+											   Mr. FELIX GAFARANGA
+											   07 - Barizi Room
+											   2
+											   
+											   11/12/2024 07:02:29 PM
+											   29/12/2024
+											   71000
+											   
+											   2253
+											   Mr. ZAKARIYA MOHAMED
+											   23 - Barizi Room
+											   1
+											   
+											   14/12/2024 10:12:23 AM
+											   29/12/2024
+											   17500
+											   
+											   3276
+											   Mr. ABDIRAHMAN NOOR
+											   12 - Barizi Room
+											   1
+											   
+											   21/12/2024 06:25:00 PM
+											   29/12/2024
+											   18000
+											   
+											   2337-1
+											   Mr. ABDIRIZAK MOHAMUD MOHAMED
+											   17 - Barizi Room
+											   1
+											   
+											   23/12/2024 10:31:52 AM
+											   29/12/2024
+											   13220
+											   
+											   2337-2
+											   Mr. ABDIRIZAK MOHAMUD MOHAMED
+											   18 - Barizi Room
+											   1
+											   
+											   23/12/2024 10:31:52 AM
+											   29/12/2024
+											   13220
+											   
+											   2337-3
+											   Mr. ABDIRIZAK MOHAMUD MOHAMED
+											   20 - Barizi Room
+											   1
+											   
+											   23/12/2024 10:31:52 AM
+											   29/12/2024
+											   14000
+											   
+											   2337-4
+											   Mr. ABDIRIZAK MOHAMUD MOHAMED
+											   21 - Barizi Room
+											   1
+											   
+											   23/12/2024 10:31:52 AM
+											   29/12/2024
+											   13220
+											   
+											   3302
+											   Mr. ABDIRIZAK MOHAMUD MOHAMED
+											   35 - Barizi Room
+											   2
+											   
+											   23/12/2024 11:41:00 AM
+											   29/12/2024
+											   31000
+											   
+											   3303
+											   Mr. ISMAIL MOHAMED KOROW
+											   39 - Barizi Room
+											   1
+											   
+											   23/12/2024 04:10:00 PM
+											   29/12/2024
+											   9000
+											   
+											   2355
+											   Mr. MOHAMED FARAH IGAAL
+											   06 - Barizi Room
+											   1
+											   
+											   24/12/2024 08:35:15 AM
+											   29/12/2024
+											   21000
+											   
+											   2357
+											   Mr. Mohamed Yusuf
+											   36 - Barizi Room
+											   1
+											   
+											   25/12/2024 12:53:06 PM
+											   29/12/2024
+											   18000
+											   
+											   2351
+											   Mr. ABDRAHMAN KASSIM
+											   13 - Barizi Room
+											   1
+											   
+											   25/12/2024 02:23:32 PM
+											   29/12/2024
+											   0
+											   
+											   2362
+											   Mr. AHMED ISAACK
+											   30 - Barizi Room
+											   1
+											   
+											   26/12/2024 07:20:44 PM
+											   29/12/2024
+											   13500
+											   
+											   2327
+											   Ms. AMIRA ABDULLAHI SIRAT
+											   05 - Barizi Room
+											   4
+											   
+											   27/12/2024 04:59:03 PM
+											   29/12/2024
+											   -4000
+											   
+											   2370
+											   Mr. ABDIBASID MAHAMUD
+											   25 - Barizi Room
+											   2
+											   
+											   27/12/2024 08:54:06 PM
+											   29/12/2024
+											   0
+											   
+											   2372
+											   Mr. ABDIRIZAK MOHAMUD MOHAMED
+											   15 - Barizi Room
+											   1
+											   
+											   28/12/2024 01:35:50 PM
+											   29/12/2024
+											   4500
+											   
+											   2374
+											   Mr. ABDINASSIR ALI BARRE
+											   24 - Barizi Room
+											   1
+											   
+											   28/12/2024 04:09:29 PM
+											   29/12/2024
+											   500
+											   
+											   2382
+											   Mr. MOHAMED HUSSEIN
+											   22 - Barizi Room
+											   1
+											   
+											   28/12/2024 06:35:48 PM
+											   29/12/2024
+											   0
+											   
+											   2377
+											   Mr. ABDINASIR ALI BARRE
+											   27 - Barizi Room
+											   2
+											   
+											   28/12/2024 07:26:20 PM
+											   29/12/2024
+											   6000
+											   
+						
+						Arrival/Departure Tomorrow
+						
+					
+								Tomorrow Confirm Check-In : 4 Booking | 39 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  (Ksh)
+								
+									    Business Source : NA
+									   
+											   2381
+											   Mr. MOHAMED
+											   13 - Barizi Room
+											   1
+											   
+											   30/12/2024 12:00:00 PM
+											   31/12/2024
+											   4500
+											   
+											   2386-1
+											   Mr. ASLI
+											   14 - Barizi Room
+											   2
+											   
+											   30/12/2024 12:00:00 PM
+											   31/12/2024
+											   6000
+											   
+											   2386-2
+											   Mr. ASLI
+											   34 - Barizi Room
+											   2
+											   
+											   30/12/2024 12:00:00 PM
+											   31/12/2024
+											   6000
+											   
+											   2387
+											   Mr. IMAM KIZINGO
+											   28 - Barizi Room
+											   2
+											   
+											   30/12/2024 12:00:00 PM
+											   31/12/2024
+											   6000
+											   
+					
+								Tomorrow Check-Out : 9 Booking | 39 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  (Ksh)
+								
+									    Business Source : NA
+									   
+											   2353
+											   Mr. MOHAMED ABDULLAHI GOSAR
+											   04 - Barizi Room
+											   1
+											   
+											   24/12/2024 08:31:51 AM
+											   30/12/2024
+											   27000
+											   
+											   2358
+											   Mr. MEENA EDWARD CHIYENZI
+											   34 - Barizi Room
+											   1
+											   
+											   25/12/2024 09:37:07 AM
+											   30/12/2024
+											   0
+											   
+											   2359
+											   Mr. MEENA EDWARD CHIYENZI
+											   14 - Barizi Room
+											   2
+											   
+											   25/12/2024 09:38:12 AM
+											   30/12/2024
+											   0
+											   
+											   2361
+											   Mr. ABDIRASHID HASSAN MOHAMED
+											   03 - Barizi Room
+											   2
+											   
+											   26/12/2024 09:01:19 AM
+											   30/12/2024
+											   18000
+											   
+											   2344
+											   Mr. EVANS KARANI MUIYURO
+											   37 - Barizi Room
+											   2
+											   
+											   26/12/2024 01:57:25 PM
+											   30/12/2024
+											   12000
+											   
+											   3333
+											   Mr. EVANS KARANI MUIYURO
+											   28 - Barizi Room
+											   2
+											   
+											   26/12/2024 02:29:00 PM
+											   30/12/2024
+											   12000
+											   
+											   2383
+											   Mr. ABDIHAFID MOHAMED
+											   29 - Barizi Room
+											   1
+											   
+											   28/12/2024 05:53:21 PM
+											   30/12/2024
+											   0
+											   
+											   3359
+											   Mr. SUHAYBA YUSUFU NKONDO
+											   09 - Barizi Room
+											   2
+											   
+											   28/12/2024 08:52:00 PM
+											   30/12/2024
+											   9000
+											   
+											   2375
+											   Mr. MAHAMOUD
+											   13 - Barizi Room
+											   2
+											   
+											   29/12/2024 12:00:00 PM
+											   30/12/2024
+											   6000
+
+
+--b2_81fb58af5c75ca6a5cff53bd4ebadc8e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<div>
+						<table width="100%" style="font-size:8pt;border-style:double;border-width: 8px;border-color: black;font-family: Verdana, Arial, Helvetica, sans-serif;color:#000;">
+						<tbody>
+						<tr>
+						<td style="font-size:8pt;font-family: Verdana, Arial, Helvetica, sans-serif;padding: 7px;vertical-align: top;"></td>
+						<td style="font-size:8pt;font-family: Verdana, Arial, Helvetica, sans-serif;padding: 7px;text-align: right;">
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;" >
+						<span style="font-size: 24px;line-height:26px;color:#000;">Al-Yusra Palm Tree Hotel Limited</span><br/>		<span style="font-size: 13px;line-height: 18px;color:#000;">Nkrumah Road, Mombasa,</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">Kenya</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">
+						<a style="color: #000000;" href="mailto:sales@palmtreehotel.co.ke">sales@palmtreehotel.co.ke</a>
+						</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">Phone : +254 720 331 833</span>
+						</p>
+						</td>
+						</tr>
+						</tbody>
+						</table>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:13px;padding:0.4em 0 0.4em;color: #000000;">Dear Al-Yusra Palm Tree Hotel Limited,</p>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:13px;padding-bottom:0.4em;color: #000000;">Below is your <b>Al-Yusra Palm Tree Hotel Limited</b> confirmed bookings list that you need to acknowledge:</p><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border:3px;">
+					<tr style="background-color:#48ca10;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Today's Confirm Check-In : 3 Booking | 39 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  (Ksh)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2183-1</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. RALIA LUCKY</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">38 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024 12:00:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">01/01/2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">18000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2183-2</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. RALIA LUCKY</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">35 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024 12:00:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">01/01/2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">18000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2375</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MAHAMOUD</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">13 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024 12:00:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">6000</td>
+											   </tr></table></td></tr></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border:3px;">
+					<tr style="background-color:#b0c957;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Staying Over : 18 Booking | 39 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  (Ksh)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">68</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Yussuf Hussein</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">16 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">15/11/2023 12:41:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2340</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. IBRA</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">33 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/09/2024 03:23:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2238</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MOHAMED HERSI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">19 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">12/12/2024 07:15:02 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">01/01/2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2320</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDINASSIR MOHAMED HARET</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">11 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">22/12/2024 02:49:56 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">11000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2332</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. CHAIRMAN</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">01 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">22/12/2024 04:01:30 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2353</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MOHAMED ABDULLAHI GOSAR</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">04 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">24/12/2024 08:31:51 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3315</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MOHA BAKAI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">26 - Sultan</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">24/12/2024 03:53:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2358</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MEENA EDWARD CHIYENZI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">34 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">25/12/2024 09:37:07 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2359</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MEENA EDWARD CHIYENZI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">14 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">25/12/2024 09:38:12 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2349</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDULLAHI MOHAMED ABDI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">10 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">25/12/2024 10:09:34 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2361</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRASHID HASSAN MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">03 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">26/12/2024 09:01:19 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">18000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2344</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. EVANS KARANI MUIYURO</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">37 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">26/12/2024 01:57:25 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">12000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3333</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. EVANS KARANI MUIYURO</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">26/12/2024 02:29:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">12000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2368</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Ms. AMIRA ABDULLAHI SIRAT</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">02 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27/12/2024 11:23:15 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">01/01/2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">12500</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2313-2</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. SUHAYBA YUSUFU NKONDO</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">32 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27/12/2024 07:12:04 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">01/01/2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">17500</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2383</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIHAFID MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 05:53:21 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3359</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. SUHAYBA YUSUFU NKONDO</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">09 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 08:52:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">9000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> Walk-in</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2388</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. HASSAN AHMED ABDALLAH</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 09:59:08 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">10500</td>
+											   </tr></table></td></tr></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border:3px;">
+					<tr style="background-color:#e22a2a;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Today's Check-Out : 19 Booking | 39 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  (Ksh)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2232</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. FELIX GAFARANGA</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">07 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">11/12/2024 07:02:29 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">71000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2253</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ZAKARIYA MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">23 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">14/12/2024 10:12:23 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">17500</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3276</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRAHMAN NOOR</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">12 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">21/12/2024 06:25:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">18000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2337-1</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRIZAK MOHAMUD MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">17 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">23/12/2024 10:31:52 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">13220</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2337-2</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRIZAK MOHAMUD MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">18 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">23/12/2024 10:31:52 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">13220</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2337-3</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRIZAK MOHAMUD MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">20 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">23/12/2024 10:31:52 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">14000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2337-4</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRIZAK MOHAMUD MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">21 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">23/12/2024 10:31:52 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">13220</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3302</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRIZAK MOHAMUD MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">35 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">23/12/2024 11:41:00 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3303</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ISMAIL MOHAMED KOROW</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">39 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">23/12/2024 04:10:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">9000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2355</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MOHAMED FARAH IGAAL</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">06 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">24/12/2024 08:35:15 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">21000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2357</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Mohamed Yusuf</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">36 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">25/12/2024 12:53:06 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">18000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2351</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDRAHMAN KASSIM</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">13 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">25/12/2024 02:23:32 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2362</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. AHMED ISAACK</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">26/12/2024 07:20:44 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">13500</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2327</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Ms. AMIRA ABDULLAHI SIRAT</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">05 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27/12/2024 04:59:03 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">-4000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2370</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIBASID MAHAMUD</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">25 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27/12/2024 08:54:06 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2372</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRIZAK MOHAMUD MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">15 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 01:35:50 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4500</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2374</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDINASSIR ALI BARRE</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">24 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 04:09:29 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">500</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2382</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MOHAMED HUSSEIN</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">22 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 06:35:48 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2377</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDINASIR ALI BARRE</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 07:26:20 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">6000</td>
+											   </tr></table></td></tr></table></table></table></table></table><hr/>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:22px;padding-bottom:0.4em;color: #66667a;">
+						<b>Arrival/Departure Tomorrow</b>
+						</p><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+					<tr style="background-color:#48ca10;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Tomorrow Confirm Check-In : 4 Booking | 39 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  (Ksh)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2381</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">13 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024 12:00:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4500</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2386-1</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ASLI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">14 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024 12:00:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">6000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2386-2</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ASLI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">34 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024 12:00:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">6000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2387</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. IMAM KIZINGO</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024 12:00:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">6000</td>
+											   </tr></td></tr></table></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+					<tr style="background-color:#e22a2a;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Tomorrow Check-Out : 9 Booking | 39 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  (Ksh)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2353</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MOHAMED ABDULLAHI GOSAR</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">04 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">24/12/2024 08:31:51 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2358</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MEENA EDWARD CHIYENZI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">34 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">25/12/2024 09:37:07 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2359</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MEENA EDWARD CHIYENZI</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">14 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">25/12/2024 09:38:12 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2361</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIRASHID HASSAN MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">03 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">26/12/2024 09:01:19 AM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">18000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2344</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. EVANS KARANI MUIYURO</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">37 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">26/12/2024 01:57:25 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">12000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3333</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. EVANS KARANI MUIYURO</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">26/12/2024 02:29:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">12000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2383</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. ABDIHAFID MOHAMED</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 05:53:21 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3359</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. SUHAYBA YUSUFU NKONDO</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">09 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28/12/2024 08:52:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">9000</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2375</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. MAHAMOUD</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">13 - Barizi Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29/12/2024 12:00:00 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">6000</td>
+											   </tr></td></tr></table></table></table></table></table></table>
+						<hr/>
+						</div>
+
+
+
+--b2_81fb58af5c75ca6a5cff53bd4ebadc8e--
+
+--b1_81fb58af5c75ca6a5cff53bd4ebadc8e
+Content-Type: application/octet-stream; name="TodayBookingReport_2024-12-28_43178.xlsx"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="TodayBookingReport_2024-12-28_43178.xlsx"
+
+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
+AxQAAgAIAEo9nVlzkXtZswUAAKYbAAATAAAAAAAAAAAAAAC2gaoHAAB4bC90aGVtZS90aGVtZTEu
+eG1sUEsBAj8DFAACAAgASj2dWfDsDiyZBQAAJRYAABQAAAAAAAAAAAAAALaBjg0AAHhsL3NoYXJl
+ZFN0cmluZ3MueG1sUEsBAj8DFAACAAgASj2dWUvUdU6NAgAASBEAAA0AAAAAAAAAAAAAALaBWRMA
+AHhsL3N0eWxlcy54bWxQSwECPwMUAAIACABKPZ1ZvG7jtxsCAABHBAAADwAAAAAAAAAAAAAAtoER
+FgAAeGwvd29ya2Jvb2sueG1sUEsBAj8DFAACAAgASj2dWe4gWCOEBQAA6BcAABgAAAAAAAAAAAAA
+ALaBWRgAAHhsL3dvcmtzaGVldHMvc2hlZXQxLnhtbFBLAQI/AxQAAgAIAEo9nVl+ADcSjgwAAJlK
+AAAYAAAAAAAAAAAAAAC2gRMeAAB4bC93b3Jrc2hlZXRzL3NoZWV0Mi54bWxQSwECPwMUAAIACABK
+PZ1ZZP2QpswMAAA7TAAAGAAAAAAAAAAAAAAAtoHXKgAAeGwvd29ya3NoZWV0cy9zaGVldDMueG1s
+UEsBAj8DFAACAAgASj2dWUixaX3XAwAAYQwAABgAAAAAAAAAAAAAALaB2TcAAHhsL3dvcmtzaGVl
+dHMvc2hlZXQ0LnhtbFBLAQI/AxQAAgAIAEo9nVneCFU61wMAAGEMAAAYAAAAAAAAAAAAAAC2geY7
+AAB4bC93b3Jrc2hlZXRzL3NoZWV0NS54bWxQSwECPwMUAAIACABKPZ1ZUbdShtcDAABhDAAAGAAA
+AAAAAAAAAAAAtoHzPwAAeGwvd29ya3NoZWV0cy9zaGVldDYueG1sUEsBAj8DFAACAAgASj2dWZXv
+a3nXAwAAYQwAABgAAAAAAAAAAAAAALaBAEQAAHhsL3dvcmtzaGVldHMvc2hlZXQ3LnhtbFBLAQI/
+AxQAAgAIAEo9nVnNS1IieAAAAI0AAAAjAAAAAAAAAAAAAAC2gQ1IAAB4bC93b3Jrc2hlZXRzL19y
+ZWxzL3NoZWV0MS54bWwucmVsc1BLAQI/AxQAAgAIAEo9nVnNS1IieAAAAI0AAAAjAAAAAAAAAAAA
+AAC2gcZIAAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0Mi54bWwucmVsc1BLAQI/AxQAAgAIAEo9
+nVnNS1IieAAAAI0AAAAjAAAAAAAAAAAAAAC2gX9JAAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0
+My54bWwucmVsc1BLAQI/AxQAAgAIAEo9nVnNS1IieAAAAI0AAAAjAAAAAAAAAAAAAAC2gThKAAB4
+bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0NC54bWwucmVsc1BLAQI/AxQAAgAIAEo9nVnNS1IieAAA
+AI0AAAAjAAAAAAAAAAAAAAC2gfFKAAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0NS54bWwucmVs
+c1BLAQI/AxQAAgAIAEo9nVnNS1IieAAAAI0AAAAjAAAAAAAAAAAAAAC2gapLAAB4bC93b3Jrc2hl
+ZXRzL19yZWxzL3NoZWV0Ni54bWwucmVsc1BLAQI/AxQAAgAIAEo9nVnNS1IieAAAAI0AAAAjAAAA
+AAAAAAAAAAC2gWNMAAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0Ny54bWwucmVsc1BLBQYAAAAA
+FwAXAFsGAAAcTQAAAAA=
+
+
+--b1_81fb58af5c75ca6a5cff53bd4ebadc8e--
+
+

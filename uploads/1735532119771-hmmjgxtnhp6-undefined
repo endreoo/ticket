@@ -1,0 +1,20 @@
+Received: from localhost (ec2-50-17-189-228.compute-1.amazonaws.com [50.17.189.228])
+ by email-smtp.amazonaws.com
+ with SMTP (SimpleEmailService-d-WLAYZHK9A) id msjlV1fG1GHPXAd2kC8N
+ for booking@longviewsuites.com;
+ Mon, 30 Dec 2024 04:01:16 +0000 (UTC)
+Date: Mon, 30 Dec 2024 04:01:16 +0000
+Return-Path: bookings@hotelonline.co
+To: booking@longviewsuites.com
+From: bookings <bookings@hotelonline.co>
+Reply-To: bookings <bookings@hotelonline.co>
+Subject: Night Audit completed successfully for Longview Suites Hotel
+Message-ID: <0100019415b9aaeb-9f800f10-295e-41c2-9811-91bd7c03d701-000000@email.amazonses.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+X-CUST-SFL: transactionprocessdao
+X-CUST-MID: 78c560d1372f509da72566b0f7e3a501
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="b1_346d98c3d8b7ba1bfbd3994a62bb1902"
+

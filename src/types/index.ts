@@ -16,13 +16,4 @@ export interface Booking {
   user_id: string;
 }
 
-export interface Ticket {
-  id: string;
-  title: string;
-  description: string;
-  priority: 'low' | 'medium' | 'high';
-  status: 'open' | 'in_progress' | 'resolved';
-  created_at: string;
-  user_id: string;
-  booking_id?: string;
-}
+export type { Ticket } from '../types';

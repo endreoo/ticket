@@ -1,0 +1,413 @@
+Date: Sun, 29 Dec 2024 18:58:41 +0000
+To: bookings@hotelonline.co, reservations@mizinganiseafront.com, 
+	manager@mizinganiseafront.com
+From: Channel Manager <bookings@hotelonline.co>
+Reply-To: Channel Manager <bookings@hotelonline.co>
+Subject: New Booking Notification < Mizingani Seafront Hotel > - Booking Ref No: [ MISH6767 ]
+Message-ID: <0100019413c8e977-1181f319-aee3-4713-b863-b5e0275e6486-000000@email.amazonses.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+X-CUST-SFL: channeldao
+X-CUST-MID: 2cd1d248b8a4794da8d9192fd9ea61f2
+X-CUST-LOC: CEN
+X-CUST-BCC: [["centrix365@ipms247.com"]]
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_7c06775a5789fb25fb458a6673429dab"
+Feedback-ID: ::1.us-east-1.Wp3yjTq794TZhPeIyHBLi1DteK8HgMnBEAWfbmEJRjk=:AmazonSES
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1735498721;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Feedback-ID;
+	bh=hVWQo0Kk3GMGvwPPuJZluCldiFFLHYrKgN5Ny+rxOfI=;
+	b=Mxc1PtJFrwQ9V8x5B2bhcep5JCrGE93dp1/e6C9V3MGWuQg3tjjuT7GL9/rW/aZC
+	rpkI/lgINhAxcXE1xrS9BHeewUmEgp2tEwsI0UqF4u8ZACo1IteRXwMwrNcU9/ncPl5
+	2fKVl7RV4M7klQxjF3pVITstreeieINNMeR56uDw=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=kd55yplmxcinem26dzgymmx7ewhys3vx; d=hotelonline.co; t=1735498721;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type;
+	bh=hVWQo0Kk3GMGvwPPuJZluCldiFFLHYrKgN5Ny+rxOfI=;
+	b=fiTOG9odYtcYosQthMfnI6IWF7/1V1qRjxBkUnikuyQY38tGEedVvllcVe9VEl2f
+	JOgA9rjvg1PuHl9WA0gpQRLa9Mj/TNNwicSVB3cSjF9MtgqNkWkVa3Mc1qog8IXKXCA
+	1I7Lb6A3nnj+Uef3/IS0K5bo8qxU0fbLvT+wiS/ZbRfDnA9Oqk9dbVhnDyVw4khbN97
+	PtuUgYvVcjtTUoTc2o4owFR9SkJFsp0wIwPx8zkCATJSfl5Oha1bU200QU5RJdc9x8Z
+	Ne0MloZbZamVnar7vilJhVYpyDr7na/7h2Pn0upK9A5y4xUvKtYJU/g7QY29pMShSxv
+	p8whr3zIRA==
+
+--b1_7c06775a5789fb25fb458a6673429dab
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Booking
+NotificationChannel : Expedia
+(9242138)Booking DateTime :
+29-Dec-2024 09:58:41 PM
+				Mizingani Seafront
+HotelAddress : Mizingani
+Rd,Zanzibar,Tanzania , Zanzibar , Zanzibar - P.O
+Box 3974Ph : +255 242
+235396Email :
+reservations@mizinganiseafront.com
+				Reservation No : MISH6767Travel
+Agent Voucher No :
+385503575
+				Guest
+InformationName
+				Sarah
+TomlinsonCity
+				-Phone07624431661
+				Country
+				-Email5jx9r4et1q@m.expediapartnercentral.com
+				Stay
+Information
+				Check
+In 15/09/2025No.
+Of Rooms 1Check
+Out17/09/2025Total
+Adult2No.
+Of Nights2Total
+Child0RemarksExpedia Collect Booking. POS :
+Hotels.com1) Bed Type: 1 Queen Bed2)
+Non-Smoking3) Wheelchair accessible room,
+accessible bathroom, ground floor if the lift
+isn’t working4) Payment Card Information:
+Remittance amount: 114.80, Expedia Virtual Card
+will be activated from the day of Check-in.  
+ Rate Applied :- Fenced Mobile-Gold - MOD
+2.0Credit
+Card DetailsImportant
+Note: For security reasons, CVV/CVC code will
+appear only for 5 attempts. Please click on the
+below link only when absolutely necessary to get
+the card details. Please
+Click HereRoom
+DetailsRoom
+Type
+											Double Room with City View (200804723)
+Adult2Rate
+TypeBed & Breakfast (270159275) Child0DayPrice15/09/2025
+											$ 69.9916/09/2025
+											$ 69.99Payment
+DetailsPayment
+Status : OTA
+COLLECTTotal Amount Inclusive Tax (A)$ 139.98Extra Charges (B)Not
+AvailableDue Amount$ 0.00Total Taxes (Value Added Tax)$ 18.26Supplier Amount (A+B)$ 139.98Best
+Regards ,HotelOnlineSupport
+Phone : +254 733 280 000 , +254 789 300
+000Support
+Email :
+bookings@hotelonline.coClick
+here to view reservation :
+MISH6767"Please do not reply to
+this email, this email address is not regularly
+monitored. Please contact your account manager for
+any assistance."
+
+
+--b1_7c06775a5789fb25fb458a6673429dab
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<table style="border:1px solid
+#cccccc;width:100%;" border="0" cellspacing="1"
+cellpadding="0">
+					<tr><td style="padding:
+5px;padding-left:12px;background:none repeat
+scroll 0 0 #eee;width:50%;"><div style="float:
+left;padding: 4px 10px;
+font-family:Verdana,Arial,Helvetica,sans-serif;"><span
+style="font-size:21px;"><b>New Booking
+Notification</b></span><br/><br/><span
+style="font-size:15px;">Channel : Expedia
+(9242138)</span><br/><span
+style="font-size:15px;">Booking DateTime :
+29-Dec-2024 09:58:41 PM</span></div></td><td
+style="padding:
+5px;padding-left:12px;background:none repeat
+scroll 0 0 #eee;width:50%;">
+				<div style="float: left;padding: 5px;
+font-family:Verdana,Arial,Helvetica,sans-serif;"><span
+style="font-size:21px;">Mizingani Seafront
+Hotel</span><br/><br/><span
+style="font-size:15px;">Address : Mizingani
+Rd,Zanzibar,Tanzania , Zanzibar , Zanzibar - P.O
+Box 3974</span><br/><span
+style="font-size:15px;">Ph : +255 242
+235396</span><br/><span
+style="font-size:15px;">Email :
+reservations@mizinganiseafront.com</span></div></td></tr></table><br/><table
+style="width:100%; border:1px solid #cccccc;"
+border="0" cellspacing="1" cellpadding="0">
+				<tr><td style="padding:
+5px;padding-left:12px;background:none repeat
+scroll 0 0 #eee;"><span style="font-size:
+15px;">Reservation No : MISH6767</span></td><td
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0 #eee;"><span style="float:
+right;padding-right: 40px;font-size: 15px;">Travel
+Agent Voucher No :
+385503575</span></td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;width:100%;"
+border="0" cellspacing="1" cellpadding="0">
+				<tr><td colspan=4 style="padding:
+5px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+><strong>Guest
+Information</strong><br/><br/></td></tr><tr><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Name</td>
+				<td width="30%" style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Sarah
+Tomlinson</td><td width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">City</td>
+				<td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">-</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Phone</td><td
+width="30%" style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">07624431661</td>
+				<td width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Country</td>
+				<td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">-</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Email</td><td
+width="30%" style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">5jx9r4et1q@m.expediapartnercentral.com</td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr>
+				<td colspan=4 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"><strong>Stay
+Information</strong><br/><br></td>
+				</tr><tr><td width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Check
+In </td><td width="30%" style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">15/09/2025</td><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">No.
+Of Rooms </td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">1</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Check
+Out</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">17/09/2025</td><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Total
+Adult</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">2</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">No.
+Of Nights</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">2</td><td width="10%" style="padding:
+4px 0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Total
+Child</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">0</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Remarks</td><td
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+colspan=3>Expedia Collect Booking.<br /> POS :
+Hotels.com<br>1) Bed Type: 1 Queen Bed<br>2)
+Non-Smoking<br>3) Wheelchair accessible room,
+accessible bathroom, ground floor if the lift
+isn’t working<br>4) Payment Card Information:
+Remittance amount: 114.80, Expedia Virtual Card
+will be activated from the day of Check-in.<br>  
+<b> Rate Applied :- </b>Fenced Mobile-Gold - MOD
+2.0<br/></td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Credit
+Card Details</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+colspan=3><p><b style="color:#ff0000;">Important
+Note:</b> For security reasons, CVV/CVC code will
+appear only for 5 attempts. Please click on the
+below link only when absolutely necessary to get
+the card details.&nbsp;<a
+href="https://live.ipms247.com/index.php/page/reservation.viewreservation?token=xA31tqPDtOsohY5pU2mq-e44PEemLPq9BpV2XTr-Ee3Txvi5_JgJjETPnQggFrpePDFwMT5XZnXJo-av1eHp7naB6RN_">Please
+Click Here</a></p></td></tr></table><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1"
+cellpadding="0"></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr><td
+colspan=4 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+><strong>Room
+Details</strong><br/><br/></td></tr><tr><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Room
+Type</td>
+											<td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">Double Room with City View (200804723)
+</td><td width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Adult</td><td
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">2</td></tr><tr><td width="10%"
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Rate
+Type</td><td style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">Bed & Breakfast (270159275) </td><td
+width="10%" style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">Child</td><td
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="12%">0</td></tr><tr><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:50%;"><strong>Day</strong></td><td
+colspan=2 style="padding: 4px 10px 4px
+12px;background:none repeat scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+align="right"><strong>Price</strong></td></tr><tr><td
+colspan=2 style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">15/09/2025</td>
+											<td colspan=2 align="right"
+style="padding: 4px 10px 4px 12px;
+font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">$&nbsp;69.99</td></tr><tr><td
+colspan=2 style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">16/09/2025</td>
+											<td colspan=2 align="right"
+style="padding: 4px 10px 4px 12px;
+font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;">$&nbsp;69.99</td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr><td
+colspan=3 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:60%;"><strong>Payment
+Details</strong><br/><br/></td><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#ccc;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:40%;"><strong>Payment
+Status : OTA
+COLLECT</strong><br/><br/></td></tr><tr><td
+colspan=3 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Total Amount Inclusive Tax (A)</td><td
+colspan=2 style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="20%">$&nbsp;139.98</td></tr><tr><td
+colspan=3 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Extra Charges (B)</td><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">Not
+Available</td></tr></td></tr><tr><td colspan=3
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Due Amount</td><td colspan=2
+style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">$&nbsp;0.00</td></tr><tr><td colspan=3
+style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Total Taxes (Value Added Tax)</td><td
+colspan=2 style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">$&nbsp;18.26</td></tr><tr><td
+colspan=3 style="padding: 4px
+0px;padding-left:12px;background:none repeat
+scroll 0 0
+#eee;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="70%">Supplier Amount (A+B)</td><td
+colspan=2 style="padding: 4px
+0px;padding-left:12px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"
+width="30%">$&nbsp;139.98</td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr><td
+style="color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;padding:1px;"><span>Best
+Regards ,</span></td></tr><tr><td
+style="color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;padding:1px;"><span><b>HotelOnline</b></span></td></tr><tr></tr><tr><td
+style="color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;padding:1px;"><span>Support
+Phone : +254 733 280 000 , +254 789 300
+000</span></td></tr><tr><td
+style="color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;padding:1px;padding-bottom:10px;"><span>Support
+Email :
+bookings@hotelonline.co</span></td></tr></table><br/><table
+style="border:1px solid
+#cccccc;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;width:100%;"
+border="0" cellspacing="1" cellpadding="0"><tr><td
+style="font-weight:bold; text-align:center;
+padding: 4px
+0px;padding-left:12px;color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:13px;"><a
+href="https://live.ipms247.com/index.php/page/reservation.viewtransaction?vwauthtoken=eJwzMjK2tDCAAUMDCzMzACVnA74%3D">Click
+here to view reservation :
+MISH6767</a></td></tr></table><br/><br/><p
+style="font:italic 11px
+arial;text-align:center;">"Please do not reply to
+this email, this email address is not regularly
+monitored. Please contact your account manager for
+any assistance."</p>
+
+
+
+--b1_7c06775a5789fb25fb458a6673429dab--
+
+

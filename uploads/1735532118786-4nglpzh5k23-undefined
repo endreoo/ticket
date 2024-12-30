@@ -1,0 +1,430 @@
+Date: Sun, 29 Dec 2024 23:02:51 +0000
+To: info@anabelsuites.com
+From: Anabel Apartment and Suites Abuja <bookings@hotelonline.co>
+Reply-To: Anabel Apartment and Suites Abuja <bookings@hotelonline.co>
+Subject: Todays Booking and Next days Booking List for Anabel Apartment and Suites Abuja
+Message-ID: <0100019414a8740a-3eff90d2-8125-4e95-ab41-c9c96458ee9f-000000@email.amazonses.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+X-CUST-SFL: transactionprocessdao
+X-CUST-MID: c789e287ac4386ab27853dc715f87002
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="b1_31015708518b8d2fc25393f21442948e"
+Feedback-ID: ::1.us-east-1.Wp3yjTq794TZhPeIyHBLi1DteK8HgMnBEAWfbmEJRjk=:AmazonSES
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1735513371;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Feedback-ID;
+	bh=puXA7cg6kiIGv9YyKc4Dx/T/F3lXvN8cLOwf5qlXf7c=;
+	b=Bbh5LsCQzxVMjAF5M0sO4IVkNoVyVKH+H88ovenvxbQEzlLLiNA9QMs9tftkhtHL
+	aLPEFqPJ+Y11svb/+090KsPfyhv1oLydvBYAaTKb4ICpTBcb7il+3lrraIMY2iKXi6E
+	G2AHWmTy4PKNDsv6tMScdxjjjTmWdMtEp8JLcSUw=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=kd55yplmxcinem26dzgymmx7ewhys3vx; d=hotelonline.co; t=1735513371;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type;
+	bh=puXA7cg6kiIGv9YyKc4Dx/T/F3lXvN8cLOwf5qlXf7c=;
+	b=KUtreonzBA3iL3jFYWyfFqGE+EYMt7aUmFAB0VJzR0MuoSFqQz/5j3WhME0v+EST
+	3mf+eK3lrtlHzPAdaL93dc96NRUc9EcThXpLac7UGv0jas8uereAKMLyk4amib1tQbR
+	Nn30p2zTpX1OxLcFHoPC1+1AUqbQS+Ons0gQISnKvMKvn7foaKvPGRrDave//3pq5x+
+	JLldK29GtcLA0LJgABEO197T4xyaQBU2teY+XPaoyruJYYYi0LdhsiuT1hpBUALHp/T
+	suDFrgMPWAkiVJXruQKTVSqfHkzh3z2QCcM6iDo9wgYZ16CDXNkdUzAQcI0w02KoQmO
+	zG7xUzmmiA==
+
+--b1_31015708518b8d2fc25393f21442948e
+Content-Type: multipart/alternative;
+	boundary="b2_31015708518b8d2fc25393f21442948e"
+
+--b2_31015708518b8d2fc25393f21442948e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Anabel Apartment and Suites Abuja		Zone D, 14 Otuoke St, Asokoro 900231, Abuja,Federal Capital Territory, Nigeria,
+						Abuja - 900231,Abuja,Nigeria
+						
+						info@anabelsuites.com
+						
+						Phone : +2349158892725
+						
+						
+						
+						
+						
+						Dear Anabel Apartment and Suites Abuja,
+						Below is your Anabel Apartment and Suites Abuja confirmed bookings list that you need to acknowledge:
+					
+								Today's Confirm Check-In : 2 Booking | 0 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  (N)
+								
+									    Business Source : Booking.com
+									   
+											   4452685638/5301291348
+											   Christian Abah
+											   Two Bedroom Apartment
+											   4
+											   
+											   30/12/2024 05:56:25 PM
+											   02/01/2025
+											   320892
+											   
+											   4800368292/5301746260
+											   Amina Steven
+											   Deluxe Suites
+											   3
+											   
+											   30/12/2024 11:20:23 PM
+											   02/01/2025
+											   238272
+											   
+						
+						Arrival/Departure Tomorrow
+						
+					
+								Tomorrow Confirm Check-In : 0 Booking | 0 Rooms
+						
+					
+								Tomorrow Check-Out : 0 Booking | 0 Rooms
+						
+						
+									Hold Expiring Tomorrow : 0 Booking | 0 Rooms
+							
+					
+								Tomorrow Hold Check-In : 0 Booking | 0 Rooms
+						
+					
+								Enquiry Check-In Tomorrow : 0 Booking | 0 Rooms
+
+
+--b2_31015708518b8d2fc25393f21442948e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<div>
+						<table width="100%" style="font-size:8pt;border-style:double;border-width: 8px;border-color: black;font-family: Verdana, Arial, Helvetica, sans-serif;color:#000;">
+						<tbody>
+						<tr>
+						<td style="font-size:8pt;font-family: Verdana, Arial, Helvetica, sans-serif;padding: 7px;vertical-align: top;"></td>
+						<td style="font-size:8pt;font-family: Verdana, Arial, Helvetica, sans-serif;padding: 7px;text-align: right;">
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;" >
+						<span style="font-size: 24px;line-height:26px;color:#000;">Anabel Apartment and Suites Abuja</span><br/>		<span style="font-size: 13px;line-height: 18px;color:#000;">Zone D, 14 Otuoke St, Asokoro 900231, Abuja,Federal Capital Territory, Nigeria,</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">Abuja - 900231,Abuja,Nigeria</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">
+						<a style="color: #000000;" href="mailto:info@anabelsuites.com">info@anabelsuites.com</a>
+						</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">Phone : +2349158892725</span>
+						</p>
+						</td>
+						</tr>
+						</tbody>
+						</table>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:13px;padding:0.4em 0 0.4em;color: #000000;">Dear Anabel Apartment and Suites Abuja,</p>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:13px;padding-bottom:0.4em;color: #000000;">Below is your <b>Anabel Apartment and Suites Abuja</b> confirmed bookings list that you need to acknowledge:</p><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border:3px;">
+					<tr style="background-color:#48ca10;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Today's Confirm Check-In : 2 Booking | 0 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  (N)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> Booking.com</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4452685638/5301291348</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Christian Abah</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Two Bedroom Apartment</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024 05:56:25 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">02/01/2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">320892</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4800368292/5301746260</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Amina Steven</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Deluxe Suites</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">3</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30/12/2024 11:20:23 PM</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">02/01/2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">238272</td>
+											   </tr></table></td></tr></table></table></table></table></table><hr/>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:22px;padding-bottom:0.4em;color: #66667a;">
+						<b>Arrival/Departure Tomorrow</b>
+						</p><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+					<tr style="background-color:#48ca10;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color:white">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Tomorrow Confirm Check-In : 0 Booking | 0 Rooms</td>
+						</tr></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+					<tr style="background-color:#e22a2a;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color:white">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Tomorrow Check-Out : 0 Booking | 0 Rooms</td>
+						</tr></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+						<tr style="background-color:#e8a40c;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color:white">
+									<td align="left" width="100%" colspan="8" style="padding:0.5em;">Hold Expiring Tomorrow : 0 Booking | 0 Rooms</td>
+							</tr></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+					<tr style="background-color:#e85d0c;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color:white">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Tomorrow Hold Check-In : 0 Booking | 0 Rooms</td>
+						</tr></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+					<tr style="background-color:#00aceb;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color:white">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Enquiry Check-In Tomorrow : 0 Booking | 0 Rooms</td>
+						</tr></table>
+						<hr/>
+						</div>
+
+
+
+--b2_31015708518b8d2fc25393f21442948e--
+
+--b1_31015708518b8d2fc25393f21442948e
+Content-Type: application/octet-stream; name="TodayBookingReport_2024-12-29_40855.xlsx"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="TodayBookingReport_2024-12-29_40855.xlsx"
+
+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
+bHNQSwUGAAAAABMAEwAtBQAACy4AAAAA
+
+
+--b1_31015708518b8d2fc25393f21442948e--
+
+

@@ -167,6 +167,25 @@ export function TicketTable({ tickets, onTicketUpdate, onTicketSelect }: TicketT
 
   return (
     <div className="bg-white shadow-sm rounded-lg overflow-hidden">
+      <div className="flex justify-between items-center px-6 py-4 bg-white border-b">
+        <h2 className="text-lg font-medium text-gray-900">Tickets</h2>
+        <button
+          onClick={async (e) => {
+            e.stopPropagation();
+            try {
+              await axios.post('/api/tickets/check-imap');
+              onTicketUpdate();
+            } catch (error) {
+              console.error('Error checking IMAP:', error);
+              alert('Failed to check for new emails. Please try again.');
+            }
+          }}
+          className="px-4 py-2 bg-[#00BCD4] text-white rounded-lg hover:bg-[#00ACC1] flex items-center gap-2 disabled:opacity-50 shadow-sm font-medium"
+        >
+          <RefreshCw className="h-4 w-4" />
+          Check New Emails
+        </button>
+      </div>
       <table className="min-w-full divide-y divide-gray-200">
         <thead className="bg-gray-50">
           <tr>

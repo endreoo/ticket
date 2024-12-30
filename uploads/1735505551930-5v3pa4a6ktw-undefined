@@ -1,0 +1,979 @@
+Date: Sun, 29 Dec 2024 06:19:30 +0000
+To: reservations@capitalheightshotel.co.ke, endre@cityhotels.com
+From: Bookings <bookings@hotelonline.co>
+Reply-To: Bookings <bookings@hotelonline.co>
+Subject: Todays Booking and Next days Booking List for Capital Heights Hotel
+Message-ID: <010001941111da33-b96a9033-264d-417f-bfd1-1f078e84acd3-000000@email.amazonses.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.2 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+X-CUST-SFL: transactionprocessdao
+X-CUST-MID: 419ba876398f00d86e4720c9e8bb13ef
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="b1_bfd2f6fd9871d152c32f45954f557632"
+Feedback-ID: ::1.us-east-1.Wp3yjTq794TZhPeIyHBLi1DteK8HgMnBEAWfbmEJRjk=:AmazonSES
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1735453170;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type:Feedback-ID;
+	bh=mKJ0BDN8dLOKntRHaZWyjV5BW2QZx4VYXXQ5OmFi//Y=;
+	b=VLBHA+ViKiOQ3sJIaeSzG1GQ6UpabNmeWKdO8TuliCAyp8H69lnD7/0w43pmr5Bf
+	mWtqLaMfngmzCm64W33WCV6ZAea2MiJO7SAWVvimZXYxRnOj9TWNuKScq2vU5F3piFb
+	5smV18eLMOR+TTml5fqu7bT7CKl+PJ6KoOoi5zNg=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=kd55yplmxcinem26dzgymmx7ewhys3vx; d=hotelonline.co; t=1735453170;
+	h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type;
+	bh=mKJ0BDN8dLOKntRHaZWyjV5BW2QZx4VYXXQ5OmFi//Y=;
+	b=A0MCPNs9eAobvU1BXy29iA2TQ2LcIgXFfB7NsOwExrSF2xjWk7Bz7NelKOVcTUUB
+	SplDDS/DGM9DByNUbm3nb3y/HvmV3DIwlpMYnd6JhKMoOFsFp2BVVzWJkqCm+x43Wgz
+	Z07hb42xEMNbjFXNowJkTm9b9av5Qh2IspZEflyLowcfmsjm4yc359jeec44wTz9an6
+	mlnfsk9xkgxonK+azcrDqlTMlTT0+PycH2pEMVP8Y5rOa9YzDgC5vpG2NcjYKULos8b
+	OnY5OGWhOJwIf7+iK84tTz4NMe7mAVDBNcIdipKNh/XMhRtCROKBlJhCQ1z6vyLGGCN
+	Xzv2j3rGOw==
+
+--b1_bfd2f6fd9871d152c32f45954f557632
+Content-Type: multipart/alternative;
+	boundary="b2_bfd2f6fd9871d152c32f45954f557632"
+
+--b2_bfd2f6fd9871d152c32f45954f557632
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Capital Heights Hotel		Hospital Road,Upper Hill,
+						Nairobi - 00506,Nairobi,Kenya
+						
+						bookings@hotelonline.co
+						
+						Phone : 254733280000
+						
+						
+						
+						
+						
+						Dear Bookings,
+						Below is your Capital Heights Hotel confirmed bookings list that you need to acknowledge:
+					
+								Today's Confirm Check-In : 2 Booking | 18 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  ($)
+								
+									    Business Source : Booking.com
+									   
+											   4762900071/5301753786
+											   sofanit beza
+											   C3 - Deluxe Double Room
+											   1
+											   
+											   29-12-2024 01:26:45
+											   31-12-2024
+											   68.86
+											   
+									    Business Source : NA
+									   
+											   CHH20571
+											   Mr. Sofia
+											   B1 - Deluxe Twin Room
+											   2
+											   
+											   29-12-2024 12:00:00
+											   07-01-2025
+											   315
+											   
+					
+								Staying Over : 9 Booking | 18 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  ($)
+								
+									    Business Source : Booking.com
+									   
+											   4386461398/5287233416
+											   Petronila Malenya Osodo
+											   D4 - Deluxe Double Room
+											   1
+											   
+											   27-12-2024 11:32:53
+											   30-12-2024
+											   0
+											   
+											   4705613175/5292664180
+											   Katerina Tsygourova
+											   D1 - Deluxe Double Room
+											   1
+											   
+											   28-12-2024 07:39:40
+											   04-01-2025
+											   0
+											   
+											   4561943627/5295353270
+											   Perry Kamau
+											   C1 - Deluxe Double Room
+											   1
+											   
+											   28-12-2024 23:37:45
+											   05-01-2025
+											   299.52
+											   
+											   4770847137/5260537470
+											   Shen Yifan
+											   A2 - Standard Single Room
+											   1
+											   
+											   28-12-2024 23:43:55
+											   09-01-2025
+											   0
+											   
+									    Business Source : NA
+									   
+											   CHH20885
+											   Mr. Joshua/Mwendia
+											   B4 - Standard Single Room
+											   1
+											   
+											   22-12-2024 22:50:31
+											   02-01-2025
+											   0
+											   
+											   CHH20947
+											   Mr. Mwendia paul
+											   D5 - Deluxe Double Room
+											   1
+											   
+											   27-12-2024 08:50:14
+											   02-01-2025
+											   0
+											   
+											   CHH20952
+											   Mr. Diana Dolla
+											   C5 - Deluxe Double Room
+											   1
+											   
+											   27-12-2024 11:35:38
+											   30-12-2024
+											   0
+											   
+											   CHH20927
+											   Mr. Shana-Esther
+											   B5 - Deluxe Twin Room
+											   2
+											   
+											   28-12-2024 08:04:58
+											   19-01-2025
+											   880
+											   
+											   CHH20814
+											   Mr. Nicolaus Leringa
+											   B2 - Standard Single Room
+											   1
+											   
+											   28-12-2024 23:44:44
+											   17-01-2025
+											   600
+											   
+					
+								Today's Check-Out : 4 Booking | 18 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  ($)
+								
+									    Business Source : NA
+									   
+											   CHH20957
+											   Mr. Audrey Janise
+											   D2 - Deluxe Double Room
+											   2
+											   
+											   27-12-2024 08:49:30
+											   29-12-2024
+											   0
+											   
+											   CHH20958
+											   Mr. Audrey Janise
+											   D3 - Deluxe Double Room
+											   2
+											   
+											   27-12-2024 08:49:49
+											   29-12-2024
+											   0
+											   
+											   CHH20966
+											   Mr. Samuel Kamiti
+											   C2 - Deluxe Double Room
+											   2
+											   
+											   28-12-2024 23:37:18
+											   29-12-2024
+											   0
+											   
+											   CHH20967
+											   Mr. Vincent Osundwa
+											   C3 - Deluxe Double Room
+											   2
+											   
+											   28-12-2024 23:55:34
+											   29-12-2024
+											   0
+											   
+						
+						Arrival/Departure Tomorrow
+						
+					
+								Tomorrow Confirm Check-In : 4 Booking | 18 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  ($)
+								
+									    Business Source : Booking.com
+									   
+											   4584363174/5266060972
+											   Luke Maginness
+											   C2 - Deluxe Double Room
+											   1
+											   
+											   30-12-2024 11:19:04
+											   07-01-2025
+											   286
+											   
+											   4462791229/5254087389
+											   Nneoma Angela Uzodigwe
+											   D4 - Deluxe Double Room
+											   1
+											   
+											   30-12-2024 13:30:50
+											   02-01-2025
+											   78
+											   
+											   4708169303/5283565918
+											   ALLAN SIMWOGERERE
+											   D3 - Deluxe Double Room
+											   2
+											   
+											   30-12-2024 19:58:13
+											   01-01-2025
+											   64.36
+											   
+									    Business Source : NA
+									   
+											   CHH20954
+											   Mr. Eunice Mweni
+											   C5 - Deluxe Double Room
+											   2
+											   
+											   30-12-2024 12:00:00
+											   01-01-2025
+											   110
+											   
+					
+								Tomorrow Check-Out : 2 Booking | 18 Rooms
+								
+								
+								
+								Reservation
+								Guest Name
+								Rooms
+								Pax
+								Meal
+								Check In
+								Check Out
+								Outstanding Amt.  ($)
+								
+									    Business Source : Booking.com
+									   
+											   4386461398/5287233416
+											   Petronila Malenya Osodo
+											   D4 - Deluxe Double Room
+											   1
+											   
+											   27-12-2024 11:32:53
+											   30-12-2024
+											   0
+											   
+									    Business Source : NA
+									   
+											   CHH20952
+											   Mr. Diana Dolla
+											   C5 - Deluxe Double Room
+											   1
+											   
+											   27-12-2024 11:35:38
+											   30-12-2024
+											   0
+
+
+--b2_bfd2f6fd9871d152c32f45954f557632
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<div>
+						<table width="100%" style="font-size:8pt;border-style:double;border-width: 8px;border-color: black;font-family: Verdana, Arial, Helvetica, sans-serif;color:#000;">
+						<tbody>
+						<tr>
+						<td style="font-size:8pt;font-family: Verdana, Arial, Helvetica, sans-serif;padding: 7px;vertical-align: top;"></td>
+						<td style="font-size:8pt;font-family: Verdana, Arial, Helvetica, sans-serif;padding: 7px;text-align: right;">
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;" >
+						<span style="font-size: 24px;line-height:26px;color:#000;">Capital Heights Hotel</span><br/>		<span style="font-size: 13px;line-height: 18px;color:#000;">Hospital Road,Upper Hill,</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">Nairobi - 00506,Nairobi,Kenya</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">
+						<a style="color: #000000;" href="mailto:bookings@hotelonline.co">bookings@hotelonline.co</a>
+						</span><br/>
+						<span style="font-size: 13px;line-height: 18px;color:#000;">Phone : 254733280000</span>
+						</p>
+						</td>
+						</tr>
+						</tbody>
+						</table>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:13px;padding:0.4em 0 0.4em;color: #000000;">Dear Bookings,</p>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:13px;padding-bottom:0.4em;color: #000000;">Below is your <b>Capital Heights Hotel</b> confirmed bookings list that you need to acknowledge:</p><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border:3px;">
+					<tr style="background-color:#48ca10;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Today's Confirm Check-In : 2 Booking | 18 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  ($)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> Booking.com</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4762900071/5301753786</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">sofanit beza</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">C3 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29-12-2024 01:26:45</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">31-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">68.86</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20571</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Sofia</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">B1 - Deluxe Twin Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29-12-2024 12:00:00</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">07-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">315</td>
+											   </tr></table></td></tr></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border:3px;">
+					<tr style="background-color:#b0c957;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Staying Over : 9 Booking | 18 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  ($)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> Booking.com</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4386461398/5287233416</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Petronila Malenya Osodo</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">D4 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27-12-2024 11:32:53</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4705613175/5292664180</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Katerina Tsygourova</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">D1 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28-12-2024 07:39:40</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">04-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4561943627/5295353270</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Perry Kamau</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">C1 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28-12-2024 23:37:45</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">05-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">299.52</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4770847137/5260537470</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Shen Yifan</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">A2 - Standard Single Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28-12-2024 23:43:55</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">09-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20885</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Joshua/Mwendia</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">B4 - Standard Single Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">22-12-2024 22:50:31</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">02-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20947</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Mwendia paul</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">D5 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27-12-2024 08:50:14</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">02-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20952</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Diana Dolla</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">C5 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27-12-2024 11:35:38</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20927</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Shana-Esther</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">B5 - Deluxe Twin Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28-12-2024 08:04:58</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">19-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">880</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20814</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Nicolaus Leringa</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">B2 - Standard Single Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28-12-2024 23:44:44</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">17-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">600</td>
+											   </tr></table></td></tr></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border:3px;">
+					<tr style="background-color:#e22a2a;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Today's Check-Out : 4 Booking | 18 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  ($)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20957</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Audrey Janise</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">D2 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27-12-2024 08:49:30</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20958</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Audrey Janise</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">D3 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27-12-2024 08:49:49</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20966</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Samuel Kamiti</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">C2 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28-12-2024 23:37:18</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20967</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Vincent Osundwa</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">C3 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">28-12-2024 23:55:34</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">29-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr></table></td></tr></table></table></table></table></table><hr/>
+						<p style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size:22px;padding-bottom:0.4em;color: #66667a;">
+						<b>Arrival/Departure Tomorrow</b>
+						</p><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+					<tr style="background-color:#48ca10;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Tomorrow Confirm Check-In : 4 Booking | 18 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  ($)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> Booking.com</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4584363174/5266060972</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Luke Maginness</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">C2 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30-12-2024 11:19:04</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">07-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">286</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4462791229/5254087389</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Nneoma Angela Uzodigwe</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">D4 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30-12-2024 13:30:50</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">02-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">78</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4708169303/5283565918</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">ALLAN SIMWOGERERE</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">D3 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30-12-2024 19:58:13</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">01-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">64.36</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20954</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Eunice Mweni</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">C5 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">2</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30-12-2024 12:00:00</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">01-01-2025</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">110</td>
+											   </tr></td></tr></table></table><table width="100%" cellpadding="2" cellspacing="0" style="font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #FFFFFF;border-collapse: separate;font-size: 8pt;margin-top: 10px;border-bottom:none;">
+					<tr style="background-color:#e22a2a;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;color: white;">
+								<td align="left" width="100%" colspan="8" style="padding:0.5em;">Tomorrow Check-Out : 2 Booking | 18 Rooms</td></tr><tr>
+								<td colspan="8" style="padding:7.5pt 0.75pt 0.75pt">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr style="background-color: #eec294; font-family: Verdana, Arial, Helvetica, sans-serif;font-size:8pt;font-weight: normal;">
+								<th align="left" width="8%"   style="padding: 3.75pt;">Reservation</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Guest Name</th>
+								<th align="left" width="8%"   style="padding: 3.75pt;">Rooms</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Pax</th>
+								<th align="left" width="9%"  style="padding: 3.75pt;">Meal</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check In</th>
+								<th align="left" width="12%"  style="padding: 3.75pt;">Check Out</th>
+								<th align="left" width="3%"   style="padding: 3.75pt;">Outstanding Amt.  ($)</th>
+								</tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> Booking.com</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">4386461398/5287233416</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Petronila Malenya Osodo</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">D4 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27-12-2024 11:32:53</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+									   <td align="left" width="100%" colspan="8" style="border-width: 1pt 1pt 3pt;border-style: solid;border-color: rgb(204,204,204) rgb(204,204,204) rgb(221,221,221);padding: 3.75pt;"> <b>Business Source :</b> NA</td>
+									   </tr><tr style="font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size:8pt;">
+											   <td align="left" width="8%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">CHH20952</td>
+											   <td align="left" width="12%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">Mr. Diana Dolla</td>
+											   <td align="left" width="17%"  style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">C5 - Deluxe Double Room</td>
+											   <td align="left" width="3%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">1</td>
+											   <td align="left" width="20%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;"></td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">27-12-2024 11:35:38</td>
+											   <td align="left" width="10%"   style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">30-12-2024</td>
+											   <td align="right" width="10%" style="border-right: 1pt solid rgb(204,204,204);border-bottom: 1pt solid rgb(204,204,204);border-left: 1pt solid rgb(204,204,204);border-top: none;padding: 3.75pt;">0</td>
+											   </tr></td></tr></table></table></table></table></table></table>
+						<hr/>
+						</div>
+
+
+
+--b2_bfd2f6fd9871d152c32f45954f557632--
+
+--b1_bfd2f6fd9871d152c32f45954f557632
+Content-Type: application/octet-stream; name="TodayBookingReport_2024-12-28_13964.xlsx"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="TodayBookingReport_2024-12-28_13964.xlsx"
+
+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
+AHhsL3dvcmtzaGVldHMvX3JlbHMvc2hlZXQxLnhtbC5yZWxzTYwxDgIhEAB7X0G290ALY8xx1/kA
+ow/YcCsQYSEsMfp7KS0nk5l5/eSk3tQkFrZwmAwoYle2yN7C437dn0FJR94wFSYLXxJYl918o4R9
+NBJiFTUmLBZC7/WitbhAGWUqlXiYZ2kZ+8DmdUX3Qk/6aMxJt/8H6OUHUEsDBBQAAgAIAG8ynVnN
+S1IieAAAAI0AAAAjAAAAeGwvd29ya3NoZWV0cy9fcmVscy9zaGVldDIueG1sLnJlbHNNjDEOAiEQ
+AHtfQbb3QAtjzHHX+QCjD9hwKxBhISwx+nspLSeTmXn95KTe1CQWtnCYDChiV7bI3sLjft2fQUlH
+3jAVJgtfEliX3XyjhH00EmIVNSYsFkLv9aK1uEAZZSqVeJhnaRn7wOZ1RfdCT/pozEm3/wfo5QdQ
+SwMEFAACAAgAbzKdWc1LUiJ4AAAAjQAAACMAAAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0My54
+bWwucmVsc02MMQ4CIRAAe19BtvdAC2PMcdf5AKMP2HArEGEhLDH6eyktJ5OZef3kpN7UJBa2cJgM
+KGJXtsjewuN+3Z9BSUfeMBUmC18SWJfdfKOEfTQSYhU1JiwWQu/1orW4QBllKpV4mGdpGfvA5nVF
+90JP+mjMSbf/B+jlB1BLAwQUAAIACABvMp1ZzUtSIngAAACNAAAAIwAAAHhsL3dvcmtzaGVldHMv
+X3JlbHMvc2hlZXQ0LnhtbC5yZWxzTYwxDgIhEAB7X0G290ALY8xx1/kAow/YcCsQYSEsMfp7KS0n
+k5l5/eSk3tQkFrZwmAwoYle2yN7C437dn0FJR94wFSYLXxJYl918o4R9NBJiFTUmLBZC7/WitbhA
+GWUqlXiYZ2kZ+8DmdUX3Qk/6aMxJt/8H6OUHUEsDBBQAAgAIAG8ynVnNS1IieAAAAI0AAAAjAAAA
+eGwvd29ya3NoZWV0cy9fcmVscy9zaGVldDUueG1sLnJlbHNNjDEOAiEQAHtfQbb3QAtjzHHX+QCj
+D9hwKxBhISwx+nspLSeTmXn95KTe1CQWtnCYDChiV7bI3sLjft2fQUlH3jAVJgtfEliX3XyjhH00
+EmIVNSYsFkLv9aK1uEAZZSqVeJhnaRn7wOZ1RfdCT/pozEm3/wfo5QdQSwMEFAACAAgAbzKdWc1L
+UiJ4AAAAjQAAACMAAAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0Ni54bWwucmVsc02MMQ4CIRAA
+e19BtvdAC2PMcdf5AKMP2HArEGEhLDH6eyktJ5OZef3kpN7UJBa2cJgMKGJXtsjewuN+3Z9BSUfe
+MBUmC18SWJfdfKOEfTQSYhU1JiwWQu/1orW4QBllKpV4mGdpGfvA5nVF90JP+mjMSbf/B+jlB1BL
+AwQUAAIACABvMp1ZzUtSIngAAACNAAAAIwAAAHhsL3dvcmtzaGVldHMvX3JlbHMvc2hlZXQ3Lnht
+bC5yZWxzTYwxDgIhEAB7X0G290ALY8xx1/kAow/YcCsQYSEsMfp7KS0nk5l5/eSk3tQkFrZwmAwo
+Yle2yN7C437dn0FJR94wFSYLXxJYl918o4R9NBJiFTUmLBZC7/WitbhAGWUqlXiYZ2kZ+8DmdUX3
+Qk/6aMxJt/8H6OUHUEsBAj8DFAACAAgAbzKdWc/TB4NxAQAAIAgAABMAAAAAAAAAAAAAALaBAAAA
+AFtDb250ZW50X1R5cGVzXS54bWxQSwECPwMUAAIACABvMp1ZF7Y3OOkAAABLAgAACwAAAAAAAAAA
+AAAAtoGiAQAAX3JlbHMvLnJlbHNQSwECPwMUAAIACABvMp1Zjy1hlQ8BAAAIBgAAGgAAAAAAAAAA
+AAAAtoG0AgAAeGwvX3JlbHMvd29ya2Jvb2sueG1sLnJlbHNQSwECPwMUAAIACABvMp1ZTgTPEeAB
+AAA8BAAAEAAAAAAAAAAAAAAAtoH7AwAAZG9jUHJvcHMvYXBwLnhtbFBLAQI/AxQAAgAIAG8ynVne
+7PddcgEAABEDAAARAAAAAAAAAAAAAAC2gQkGAABkb2NQcm9wcy9jb3JlLnhtbFBLAQI/AxQAAgAI
+AG8ynVlzkXtZswUAAKYbAAATAAAAAAAAAAAAAAC2gaoHAAB4bC90aGVtZS90aGVtZTEueG1sUEsB
+Aj8DFAACAAgAbzKdWQsBDuTKBAAA6RAAABQAAAAAAAAAAAAAALaBjg0AAHhsL3NoYXJlZFN0cmlu
+Z3MueG1sUEsBAj8DFAACAAgAbzKdWUvUdU6NAgAASBEAAA0AAAAAAAAAAAAAALaBihIAAHhsL3N0
+eWxlcy54bWxQSwECPwMUAAIACABvMp1ZvG7jtxsCAABHBAAADwAAAAAAAAAAAAAAtoFCFQAAeGwv
+d29ya2Jvb2sueG1sUEsBAj8DFAACAAgAbzKdWRXL5CJ1BQAAIxcAABgAAAAAAAAAAAAAALaBihcA
+AHhsL3dvcmtzaGVldHMvc2hlZXQxLnhtbFBLAQI/AxQAAgAIAG8ynVk6+MIGswgAAAQuAAAYAAAA
+AAAAAAAAAAC2gTUdAAB4bC93b3Jrc2hlZXRzL3NoZWV0Mi54bWxQSwECPwMUAAIACABvMp1ZzFsf
+X+4FAAAXGwAAGAAAAAAAAAAAAAAAtoEeJgAAeGwvd29ya3NoZWV0cy9zaGVldDMueG1sUEsBAj8D
+FAACAAgAbzKdWfA/84nWAwAAYQwAABgAAAAAAAAAAAAAALaBQiwAAHhsL3dvcmtzaGVldHMvc2hl
+ZXQ0LnhtbFBLAQI/AxQAAgAIAG8ynVlmhs/O1gMAAGEMAAAYAAAAAAAAAAAAAAC2gU4wAAB4bC93
+b3Jrc2hlZXRzL3NoZWV0NS54bWxQSwECPwMUAAIACABvMp1ZLFDxh9cDAABhDAAAGAAAAAAAAAAA
+AAAAtoFaNAAAeGwvd29ya3NoZWV0cy9zaGVldDYueG1sUEsBAj8DFAACAAgAbzKdWegIyHjWAwAA
+YQwAABgAAAAAAAAAAAAAALaBZzgAAHhsL3dvcmtzaGVldHMvc2hlZXQ3LnhtbFBLAQI/AxQAAgAI
+AG8ynVnNS1IieAAAAI0AAAAjAAAAAAAAAAAAAAC2gXM8AAB4bC93b3Jrc2hlZXRzL19yZWxzL3No
+ZWV0MS54bWwucmVsc1BLAQI/AxQAAgAIAG8ynVnNS1IieAAAAI0AAAAjAAAAAAAAAAAAAAC2gSw9
+AAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0Mi54bWwucmVsc1BLAQI/AxQAAgAIAG8ynVnNS1Ii
+eAAAAI0AAAAjAAAAAAAAAAAAAAC2geU9AAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0My54bWwu
+cmVsc1BLAQI/AxQAAgAIAG8ynVnNS1IieAAAAI0AAAAjAAAAAAAAAAAAAAC2gZ4+AAB4bC93b3Jr
+c2hlZXRzL19yZWxzL3NoZWV0NC54bWwucmVsc1BLAQI/AxQAAgAIAG8ynVnNS1IieAAAAI0AAAAj
+AAAAAAAAAAAAAAC2gVc/AAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0NS54bWwucmVsc1BLAQI/
+AxQAAgAIAG8ynVnNS1IieAAAAI0AAAAjAAAAAAAAAAAAAAC2gRBAAAB4bC93b3Jrc2hlZXRzL19y
+ZWxzL3NoZWV0Ni54bWwucmVsc1BLAQI/AxQAAgAIAG8ynVnNS1IieAAAAI0AAAAjAAAAAAAAAAAA
+AAC2gclAAAB4bC93b3Jrc2hlZXRzL19yZWxzL3NoZWV0Ny54bWwucmVsc1BLBQYAAAAAFwAXAFsG
+AACCQQAAAAA=
+
+
+--b1_bfd2f6fd9871d152c32f45954f557632--
+
+

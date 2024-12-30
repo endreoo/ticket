@@ -1,13 +1,13 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { api } from '../lib/api';
-import toast from 'react-hot-toast';
-import { Loader, X, Search, ChevronLeft, ChevronRight, RefreshCw } from 'lucide-react';
-import { EmailView } from '../components/tickets/EmailView';
-import debounce from 'lodash/debounce';
+import { Ticket } from '../types';
+import { RefreshCw, X, Search, Loader, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Badge } from '../components/ui/badge';
-import type { Ticket } from '../types';
+import { EmailView } from '../components/tickets/EmailView';
+import { toast } from 'react-hot-toast';
 import axios from 'axios';
+import debounce from 'lodash/debounce';
 
 export function TicketsPage() {
   const [tickets, setTickets] = useState<Ticket[]>([]);
@@ -22,6 +22,33 @@ export function TicketsPage() {
   const [activeTab, setActiveTab] = useState('details');
   const [analyzing, setAnalyzing] = useState<number | null>(null);
   const [refreshing, setRefreshing] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState('');
+  const [categories, setCategories] = useState<Array<{id: string, name: string}>>([]);
+  const [training, setTraining] = useState(false);
+  const [trainingId, setTrainingId] = useState('');
+  const [approving, setApproving] = useState(false);
+
+  useEffect(() => {
+    if (activeTab === 'training' && selectedTicket) {
+      const fetchCategories = async () => {
+        try {
+          const response = await api.tickets.getCategories();
+          if (!response.categories) {
+            throw new Error('Invalid response format - missing categories array');
+          }
+          setCategories(response.categories);
+        } catch (error) {
+          console.error('Error fetching categories:', error);
+          if (error instanceof Error) {
+            toast.error(`Failed to load categories: ${error.message}`);
+          } else {
+            toast.error('Failed to load categories');
+          }
+        }
+      };
+      fetchCategories();
+    }
+  }, [activeTab, selectedTicket]);
 
   const handleRefresh = async () => {
     try {
@@ -172,9 +199,13 @@ export function TicketsPage() {
       
       // Update ticket with analysis results
       await api.tickets.update(ticket.id, {
-        sentiment: result.analysis.sentiment,
-        extracted_info: JSON.stringify(result.analysis.extracted_info || {}),
-        key_phrases: JSON.stringify(result.analysis.key_phrases || []),
+        category: result.analysis.category,
+        priority: result.analysis.category.includes('urgent') ? 'high' : 
+                 result.analysis.category.includes('complaint') ? 'high' :
+                 result.analysis.category.includes('booking') ? 'medium' : 'normal',
+        sentiment: result.analysis.sentiment_confidence,
+        extracted_info: JSON.stringify(result.analysis.booking_info || {}),
+        key_phrases: JSON.stringify([]),
         bert_processed: true
       });
       
@@ -194,6 +225,55 @@ export function TicketsPage() {
       }
     } finally {
       setAnalyzing(null);
+    }
+  };
+
+  const handleTrainBert = async () => {
+    if (!selectedTicket || !selectedCategory) return;
+    
+    try {
+      setTraining(true);
+      const response = await api.tickets.trainBert({
+        ticketId: selectedTicket.id,
+        categoryId: selectedCategory
+      });
+      setTrainingId(response.id);
+      toast.success('Training started successfully');
+    } catch (error) {
+      console.error('Error training BERT:', error);
+      if (axios.isAxiosError(error) && error.response) {
+        const errorMessage = error.response.data?.message || error.response.data || error.message;
+        toast.error(`Training failed: ${errorMessage}`);
+      } else if (error instanceof Error) {
+        toast.error(error.message);
+      } else {
+        toast.error('Failed to train BERT');
+      }
+    } finally {
+      setTraining(false);
+    }
+  };
+
+  const handleApproveTraining = async () => {
+    if (!trainingId) return;
+    
+    try {
+      setApproving(true);
+      await api.tickets.approveTraining(trainingId);
+      toast.success('Training approved successfully');
+      setTrainingId(''); // Clear training ID after approval
+    } catch (error) {
+      console.error('Error approving training:', error);
+      if (axios.isAxiosError(error) && error.response) {
+        const errorMessage = error.response.data?.message || error.response.data || error.message;
+        toast.error(`Approving failed: ${errorMessage}`);
+      } else if (error instanceof Error) {
+        toast.error(error.message);
+      } else {
+        toast.error('Failed to approve training');
+      }
+    } finally {
+      setApproving(false);
     }
   };
 
@@ -388,6 +468,16 @@ export function TicketsPage() {
                   >
                     BERT Analysis
                   </button>
+                  <button
+                    onClick={() => setActiveTab('training')}
+                    className={`${
+                      activeTab === 'training'
+                        ? 'border-[#00BCD4] text-[#00BCD4]'
+                        : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                    } whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium`}
+                  >
+                    BERT Training
+                  </button>
                 </nav>
               </div>
               
@@ -424,7 +514,7 @@ export function TicketsPage() {
                       </div>
                     </div>
                   </>
-                ) : (
+                ) : activeTab === 'bert' ? (
                   <div className="p-6 space-y-6">
                     {analyzing === selectedTicket.id ? (
                       <div className="flex flex-col items-center justify-center py-12">
@@ -547,6 +637,71 @@ export function TicketsPage() {
                         </button>
                       </>
                     )}
+                  </div>
+                ) : (
+                  <div className="space-y-6">
+                    <div className="bg-white p-4 rounded-lg border border-gray-200">
+                      <h3 className="font-medium text-gray-900 mb-4">Train BERT Model</h3>
+                      
+                      <div className="space-y-4">
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700">Current Category</label>
+                          <div className="mt-1">
+                            <Badge variant={selectedTicket.category === 'booking' ? 'default' : 'secondary'}>
+                              {selectedTicket.category || 'Uncategorized'}
+                            </Badge>
+                          </div>
+                        </div>
+
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700">Update Category</label>
+                          <select 
+                            className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-[#00BCD4] focus:border-[#00BCD4] sm:text-sm rounded-md"
+                            value={selectedCategory}
+                            onChange={(e) => setSelectedCategory(e.target.value)}
+                          >
+                            <option value="">Select category...</option>
+                            {categories.map((category) => (
+                              <option key={category.id} value={category.id}>
+                                {category.name}
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+
+                        <div className="flex justify-between">
+                          <button
+                            onClick={() => handleTrainBert()}
+                            disabled={!selectedCategory || training}
+                            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#00BCD4] hover:bg-[#00ACC1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#00BCD4] disabled:opacity-50"
+                          >
+                            {training ? (
+                              <>
+                                <RefreshCw className="animate-spin -ml-1 mr-2 h-4 w-4" />
+                                Training...
+                              </>
+                            ) : (
+                              'Train BERT'
+                            )}
+                          </button>
+
+                          <button
+                            onClick={() => handleApproveTraining()}
+                            disabled={!trainingId || approving}
+                            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 disabled:opacity-50"
+                          >
+                            {approving ? (
+                              <>
+                                <RefreshCw className="animate-spin -ml-1 mr-2 h-4 w-4" />
+                                Approving...
+                              </>
+                            ) : (
+                              'Approve Training'
+                            )}
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>

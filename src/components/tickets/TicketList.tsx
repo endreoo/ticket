@@ -19,10 +19,24 @@ export function TicketList() {
   const [selectedTicket, setSelectedTicket] = useState<Ticket | null>(null);
   const [activeTab, setActiveTab] = useState('details');
   const [analyzing, setAnalyzing] = useState<number | null>(null);
+  const [refreshing, setRefreshing] = useState(false);
 
   useEffect(() => {
     fetchTickets();
   }, [page, limit, searchTerm, statusFilter, priorityFilter]);
+
+  async function handleRefresh() {
+    try {
+      setRefreshing(true);
+      await axios.post('/tickets/check-imap');
+      await fetchTickets();
+    } catch (error) {
+      console.error('Error checking IMAP:', error);
+      alert('Failed to check for new emails. Please try again.');
+    } finally {
+      setRefreshing(false);
+    }
+  }
 
   async function fetchTickets() {
     try {
@@ -111,19 +125,28 @@ export function TicketList() {
   }
 
   return (
-    <div className="space-y-4">
-      <div className="flex justify-between items-center gap-4">
+    <div className="flex flex-col h-full p-4 space-y-4">
+      <div className="flex items-center justify-between gap-4">
+        <h1 className="text-2xl font-semibold">Support Tickets</h1>
+        <button
+          onClick={handleRefresh}
+          disabled={refreshing}
+          className="px-6 py-2 bg-[#00BCD4] text-white rounded-lg hover:bg-[#00ACC1] flex items-center gap-2 disabled:opacity-50 shadow-md font-medium min-w-[180px] h-10"
+        >
+          <RefreshCw className={`h-5 w-5 ${refreshing ? 'animate-spin' : ''}`} />
+          {refreshing ? 'Checking Emails...' : 'Check New Emails'}
+        </button>
+      </div>
+
+      <div className="flex items-center gap-4 bg-white p-4 rounded-lg border">
         <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
           <input
             type="text"
             placeholder="Search tickets..."
             value={searchTerm}
-            onChange={(e) => {
-              setSearchTerm(e.target.value);
-              setPage(1);
-            }}
-            className="pl-10 pr-4 py-2 w-full border rounded-lg focus:ring-2 focus:ring-[#00BCD4] focus:border-[#00BCD4]"
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="pl-10 pr-4 py-2 w-full border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00BCD4] focus:border-transparent"
           />
         </div>
         <select

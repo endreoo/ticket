@@ -1,9 +1,12 @@
 import { NavLink } from 'react-router-dom';
-import { CalendarDays, TicketCheck } from 'lucide-react';
+import { CalendarDays, TicketCheck, Building2, Users, UserRound } from 'lucide-react';
 
 const navigation = [
   { name: 'Bookings', to: '/', icon: CalendarDays },
   { name: 'Tickets', to: '/tickets', icon: TicketCheck },
+  { name: 'Hotels', to: '/hotels', icon: Building2 },
+  { name: 'Contacts', to: '/contacts', icon: Users },
+  { name: 'Guests', to: '/guests', icon: UserRound },
 ];
 
 export function Sidebar() {
