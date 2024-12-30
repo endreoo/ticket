@@ -2,9 +2,9 @@ import { User, Booking, Ticket, Guest } from '../types';
 import type { Hotel, Contact, HotelContact } from '../types/database';
 import axios from 'axios';
 
-// Configure axios base URL
-const API_URL = import.meta.env.VITE_API_URL || 'http://37.27.56.102:5181';
-axios.defaults.baseURL = API_URL;
+// Configure axios defaults
+axios.defaults.baseURL = '';  // Use relative URLs
+axios.defaults.headers.common['Content-Type'] = 'application/json';
 
 // Add request interceptor to include token
 axios.interceptors.request.use((config) => {
@@ -70,11 +70,15 @@ export interface PaginatedResponse<T> {
 
 export const api = {
   auth: {
-    login: (email: string, password: string) =>
-      request<{ token: string; user: User }>('/auth/login', {
-        method: 'POST',
-        body: JSON.stringify({ email, password }),
-      }),
+    login: async (email: string, password: string) => {
+      try {
+        const response = await axios.post('/auth/login', { email, password });
+        return response.data;
+      } catch (error) {
+        console.error('Login failed:', error);
+        throw error;
+      }
+    }
   },
   bookings: {
     list: () => request<Booking[]>('/bookings'),
@@ -94,6 +98,10 @@ export const api = {
       const response = await axios.get<PaginatedResponse<Ticket>>('/tickets', { params });
       return response.data;
     },
+    checkImap: async () => {
+      const response = await axios.post('/tickets/check-imap');
+      return response.data;
+    },
     create: async (ticket: Omit<Ticket, 'id' | 'created_at' | 'user_id'>) => {
       const response = await axios.post<Ticket>('/tickets', ticket);
       return response.data;
@@ -103,12 +111,38 @@ export const api = {
       return response.data;
     },
     analyze: async (data: { subject: string, message: string, from_email: string }) => {
-      const response = await axios.post<{analysis: any}>(
-        'http://37.27.142.148:5000/api/process_email',
-        data,
-        { headers: { 'Content-Type': 'application/json' } }
-      );
-      return response.data;
+      try {
+        // Clean up the data
+        const cleanData = {
+          subject: data.subject?.replace(/[<>\[\]]/g, '').replace(/[\r\n\t]+/g, ' ').replace(/\s+/g, ' ').trim() || '',
+          body: data.message?.replace(/[\r\n\t]+/g, ' ')
+            .replace(/\\"/g, '"')
+            .replace(/\\/g, '')
+            .replace(/\u2028/g, ' ')
+            .replace(/\u2029/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim() || '',
+          from_email: data.from_email?.replace(/[<>"]/g, '')
+            .replace(/[\r\n\t]+/g, ' ')
+            .replace(/\s+/g, ' ')
+            .split(/\s+/)
+            .pop() || ''
+        };
+
+        console.log('Sending BERT analysis request with cleaned data:', JSON.stringify(cleanData, null, 2));
+      
+        // Send request through our backend
+        const response = await axios.post('/tickets/analyze-bert', cleanData);
+        
+        console.log('BERT analysis response:', JSON.stringify(response.data, null, 2));
+        return response.data;
+      } catch (error) {
+        console.error('BERT API request failed:', error);
+        if (axios.isAxiosError(error) && error.response) {
+          throw new Error(`BERT analysis failed: ${JSON.stringify(error.response.data)}`);
+        }
+        throw error;
+      }
     }
   },
   hotels: {
