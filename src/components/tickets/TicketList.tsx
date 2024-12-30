@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
 import { api } from '../../lib/api';
+import { X, Search, ChevronLeft, ChevronRight, RefreshCw } from 'lucide-react';
+import { EmailView } from './EmailView';
 import { TicketTable } from './TicketTable';
-import type { Database } from '../../types/database';
-
-type Ticket = Database['public']['Tables']['tickets']['Row'];
+import { Badge } from '../ui/badge';
+import axios from 'axios';
+import type { Ticket } from '../../types';
 
 export function TicketList() {
   const [tickets, setTickets] = useState<Ticket[]>([]);
@@ -15,6 +16,9 @@ export function TicketList() {
   const [page, setPage] = useState(1);
   const [limit, setLimit] = useState(10);
   const [total, setTotal] = useState(0);
+  const [selectedTicket, setSelectedTicket] = useState<Ticket | null>(null);
+  const [activeTab, setActiveTab] = useState('details');
+  const [analyzing, setAnalyzing] = useState<number | null>(null);
 
   useEffect(() => {
     fetchTickets();
@@ -31,8 +35,36 @@ export function TicketList() {
         priority: priorityFilter !== 'all' ? priorityFilter : undefined
       });
       if (response && response.tickets) {
-        setTickets(response.tickets);
-        setTotal(response.pagination.total);
+        const processedTickets = response.tickets.map(rawTicket => {
+          // Convert raw ticket data to match Ticket interface
+          const ticket: Ticket = {
+            id: rawTicket.id,
+            subject: rawTicket.subject,
+            message: rawTicket.message,
+            from_email: rawTicket.from_email || '',
+            status: rawTicket.status,
+            category: rawTicket.category || '',
+            created_at: rawTicket.created_at,
+            sentiment: rawTicket.sentiment?.toString() || '0.5',
+            extracted_info: rawTicket.extracted_info || '{}',
+            key_phrases: rawTicket.key_phrases || '[]',
+            priority: rawTicket.priority,
+            hotel_id: rawTicket.hotel_id,
+            html_content: rawTicket.html_content,
+            has_attachments: rawTicket.has_attachments || false,
+            hotel_name: rawTicket.hotel_name || '',
+            updated_at: rawTicket.updated_at,
+            bert_processed: rawTicket.bert_processed || false,
+            message_id: rawTicket.message_id,
+            email_raw: rawTicket.email_raw,
+            uid: rawTicket.uid,
+            full_content_id: rawTicket.full_content_id,
+            has_full_content: rawTicket.has_full_content || false
+          };
+          return ticket;
+        });
+        setTickets(processedTickets);
+        setTotal(response.pagination.totalItems);
       }
     } catch (error) {
       console.error('Error fetching tickets:', error);
@@ -41,8 +73,38 @@ export function TicketList() {
     }
   }
 
+  const handleAnalyze = async (ticketId: number) => {
+    try {
+      setAnalyzing(ticketId);
+      
+      // Send to BERT API and update in one step
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/tickets/${ticketId}/analyze`);
+      
+      // Update the ticket in the list with new analysis
+      if (response.data.analysis) {
+        setTickets(tickets.map(ticket => {
+          if (ticket.id === ticketId) {
+            return {
+              ...ticket,
+              category: response.data.analysis.analysis.category,
+              sentiment: response.data.analysis.analysis.sentiment_confidence.toString(),
+              extracted_info: JSON.stringify(response.data.analysis.analysis.booking_info || {}),
+              key_phrases: '[]'
+            };
+          }
+          return ticket;
+        }));
+      }
+    } catch (error) {
+      console.error('Error analyzing ticket:', error);
+      // Show error to user
+      alert('Failed to analyze ticket. Please try again later.');
+    } finally {
+      setAnalyzing(null);
+    }
+  };
+
   const totalPages = Math.ceil(total / limit);
-  const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1);
 
   if (loading) {
     return <div>Loading...</div>;
@@ -59,7 +121,7 @@ export function TicketList() {
             value={searchTerm}
             onChange={(e) => {
               setSearchTerm(e.target.value);
-              setPage(1); // Reset to first page on search
+              setPage(1);
             }}
             className="pl-10 pr-4 py-2 w-full border rounded-lg focus:ring-2 focus:ring-[#00BCD4] focus:border-[#00BCD4]"
           />
@@ -68,7 +130,7 @@ export function TicketList() {
           value={statusFilter}
           onChange={(e) => {
             setStatusFilter(e.target.value);
-            setPage(1); // Reset to first page on filter change
+            setPage(1);
           }}
           className="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#00BCD4] focus:border-[#00BCD4]"
         >
@@ -81,7 +143,7 @@ export function TicketList() {
           value={priorityFilter}
           onChange={(e) => {
             setPriorityFilter(e.target.value);
-            setPage(1); // Reset to first page on filter change
+            setPage(1);
           }}
           className="border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#00BCD4] focus:border-[#00BCD4]"
         >
@@ -92,7 +154,166 @@ export function TicketList() {
         </select>
       </div>
 
-      <TicketTable tickets={tickets} onTicketUpdate={fetchTickets} />
+      <TicketTable 
+        tickets={tickets} 
+        onTicketUpdate={fetchTickets} 
+        onTicketSelect={setSelectedTicket}
+      />
+
+      {/* Ticket Modal */}
+      {selectedTicket && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+            <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex justify-between items-center">
+              <h2 className="text-xl font-semibold">Ticket Details</h2>
+              <button
+                onClick={() => setSelectedTicket(null)}
+                className="text-gray-400 hover:text-gray-600"
+              >
+                <X className="h-6 w-6" />
+              </button>
+            </div>
+            
+            <div className="border-b border-gray-200">
+              <nav className="-mb-px flex space-x-8 px-6" aria-label="Tabs">
+                <button
+                  onClick={() => setActiveTab('details')}
+                  className={`${
+                    activeTab === 'details'
+                      ? 'border-[#00BCD4] text-[#00BCD4]'
+                      : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                  } whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium`}
+                >
+                  Details
+                </button>
+                <button
+                  onClick={() => setActiveTab('bert')}
+                  className={`${
+                    activeTab === 'bert'
+                      ? 'border-[#00BCD4] text-[#00BCD4]'
+                      : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                  } whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium`}
+                >
+                  BERT Analysis
+                </button>
+              </nav>
+            </div>
+            
+            <div className="p-6">
+              {activeTab === 'details' ? (
+                <EmailView
+                  id={selectedTicket.id}
+                  subject={selectedTicket.subject}
+                  fromEmail={selectedTicket.from_email || ''}
+                  message={selectedTicket.message}
+                  htmlContent={selectedTicket.html_content}
+                  hasAttachments={selectedTicket.has_attachments}
+                  createdAt={selectedTicket.created_at}
+                  hotelName={selectedTicket.hotel_name}
+                  forceExpanded={true}
+                  hideExpand={true}
+                />
+              ) : (
+                <div className="space-y-6">
+                  <div className="grid grid-cols-2 gap-6">
+                    <div className="bg-white p-4 rounded-lg border border-gray-200">
+                      <h3 className="font-medium text-gray-900 mb-2">Category</h3>
+                      <div className="text-sm text-gray-500">
+                        <Badge variant={selectedTicket.category === 'booking' ? 'default' : 'secondary'}>
+                          {selectedTicket.category}
+                        </Badge>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-white p-4 rounded-lg border border-gray-200">
+                      <h3 className="font-medium text-gray-900 mb-2">Priority</h3>
+                      <div className="text-sm text-gray-500">
+                        <Badge 
+                          variant={
+                            selectedTicket.priority === 'high' ? 'destructive' : 
+                            selectedTicket.priority === 'normal' ? 'default' : 
+                            'secondary'
+                          }
+                        >
+                          {selectedTicket.priority}
+                        </Badge>
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-4 rounded-lg border border-gray-200">
+                      <h3 className="font-medium text-gray-900 mb-2">Sentiment Score</h3>
+                      <div className="text-sm text-gray-500">
+                        <Badge 
+                          variant={
+                            parseFloat(selectedTicket.sentiment) > 0.6 ? 'default' : 
+                            parseFloat(selectedTicket.sentiment) < 0.4 ? 'destructive' : 
+                            'secondary'
+                          }
+                        >
+                          {parseFloat(selectedTicket.sentiment).toFixed(2)}
+                        </Badge>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-white p-4 rounded-lg border border-gray-200">
+                      <h3 className="font-medium text-gray-900 mb-2">Extracted Information</h3>
+                      <div className="text-sm text-gray-500 space-y-2">
+                        {(() => {
+                          const info = JSON.parse(selectedTicket.extracted_info || '{}');
+                          return (
+                            <>
+                              {info.hotel_name && (
+                                <div>
+                                  <span className="font-medium">Hotel:</span> {info.hotel_name}
+                                </div>
+                              )}
+                              {info.guest_name && (
+                                <div>
+                                  <span className="font-medium">Guest:</span> {info.guest_name}
+                                </div>
+                              )}
+                              {info.room_type && (
+                                <div>
+                                  <span className="font-medium">Room:</span> {info.room_type}
+                                </div>
+                              )}
+                              {info.dates?.length > 0 && (
+                                <div>
+                                  <span className="font-medium">Dates:</span> {info.dates.join(' to ')}
+                                </div>
+                              )}
+                            </>
+                          );
+                        })()}
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-white p-4 rounded-lg border border-gray-200">
+                    <h3 className="font-medium text-gray-900 mb-2">Key Phrases</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {JSON.parse(selectedTicket.key_phrases || '[]').map((phrase: string, index: number) => (
+                        <Badge key={index} variant="secondary">
+                          {phrase}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <button 
+                    onClick={() => handleAnalyze(selectedTicket.id)}
+                    disabled={analyzing === selectedTicket.id}
+                    className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 disabled:opacity-50"
+                  >
+                    <RefreshCw className={`h-4 w-4 ${analyzing === selectedTicket.id ? 'animate-spin' : ''}`} />
+                    Reanalyze
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Pagination */}
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
@@ -125,7 +346,7 @@ export function TicketList() {
               value={limit}
               onChange={(e) => {
                 setLimit(Number(e.target.value));
-                setPage(1); // Reset to first page when changing limit
+                setPage(1);
               }}
               className="border rounded-lg px-2 py-1 text-sm focus:ring-2 focus:ring-[#00BCD4] focus:border-[#00BCD4]"
             >
@@ -143,7 +364,7 @@ export function TicketList() {
                 <span className="sr-only">Previous</span>
                 <ChevronLeft className="h-5 w-5" aria-hidden="true" />
               </button>
-              {pageNumbers.map((number) => (
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((number) => (
                 <button
                   key={number}
                   onClick={() => setPage(number)}

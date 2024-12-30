@@ -1,58 +1,50 @@
 import { User, Booking, Ticket, Guest } from '../types';
 import type { Hotel, Contact, HotelContact } from '../types/database';
+import axios from 'axios';
 
+// Configure axios base URL
 const API_URL = import.meta.env.VITE_API_URL || 'http://37.27.56.102:5181';
+axios.defaults.baseURL = API_URL;
+
+// Add request interceptor to include token
+axios.interceptors.request.use((config) => {
+  const token = localStorage.getItem('token');
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+  return config;
+});
 
 async function request<T>(
   endpoint: string,
   options: RequestInit = {}
 ): Promise<T> {
-  const token = localStorage.getItem('token');
-  const headers = {
-    'Content-Type': 'application/json',
-    ...(token && { Authorization: `Bearer ${token}` }),
-    ...options.headers,
-  };
-
-  const url = `${API_URL}${endpoint}`;
   console.log('Making API request:', {
-    url,
+    url: endpoint,
     method: options.method || 'GET',
-    headers,
   });
 
   try {
-    const response = await fetch(url, {
-      ...options,
-      headers,
+    const response = await axios.request<T>({
+      url: endpoint,
+      method: options.method || 'GET',
+      data: options.body ? JSON.parse(options.body as string) : undefined,
+      headers: {
+        'Content-Type': 'application/json',
+        ...options.headers as Record<string, string>
+      }
     });
 
     console.log('API response status:', response.status);
-    
-    if (!response.ok) {
-      if (response.status === 401 || response.status === 403) {
-        // Clear token and user data on authentication errors
-        localStorage.removeItem('token');
-        localStorage.removeItem('user');
-        throw new Error('Authentication failed');
-      }
-
-      let errorData;
-      try {
-        errorData = await response.json();
-      } catch {
-        errorData = { message: 'An error occurred' };
-      }
-      
-      console.error('API error response:', errorData);
-      throw new Error(errorData.message || 'Something went wrong');
-    }
-
-    const data = await response.json();
-    console.log('API response data:', data);
-    return data;
+    console.log('API response data:', response.data);
+    return response.data;
   } catch (error) {
     console.error('API request failed:', error);
+    if (axios.isAxiosError(error) && (error.response?.status === 401 || error.response?.status === 403)) {
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      throw new Error('Authentication failed');
+    }
     throw error;
   }
 }
@@ -98,24 +90,26 @@ export const api = {
       }),
   },
   tickets: {
-    list: (params?: PaginationParams) => {
-      const queryParams = new URLSearchParams();
-      if (params?.page) queryParams.append('page', params.page.toString());
-      if (params?.limit) queryParams.append('limit', params.limit.toString());
-      if (params?.search) queryParams.append('search', params.search);
-      const query = queryParams.toString();
-      return request<PaginatedResponse<Ticket>>(`/tickets${query ? `?${query}` : ''}`);
+    list: async (params?: PaginationParams) => {
+      const response = await axios.get<PaginatedResponse<Ticket>>('/tickets', { params });
+      return response.data;
     },
-    create: (ticket: Omit<Ticket, 'id' | 'created_at' | 'user_id'>) =>
-      request<Ticket>('/tickets', {
-        method: 'POST',
-        body: JSON.stringify(ticket),
-      }),
-    update: (id: string, data: Partial<Ticket>) =>
-      request<Ticket>(`/tickets/${id}`, {
-        method: 'PUT',
-        body: JSON.stringify(data),
-      }),
+    create: async (ticket: Omit<Ticket, 'id' | 'created_at' | 'user_id'>) => {
+      const response = await axios.post<Ticket>('/tickets', ticket);
+      return response.data;
+    },
+    update: async (id: number, data: Partial<Ticket>) => {
+      const response = await axios.post<Ticket>(`/tickets/${id}/update`, data);
+      return response.data;
+    },
+    analyze: async (data: { subject: string, message: string, from_email: string }) => {
+      const response = await axios.post<{analysis: any}>(
+        'http://37.27.142.148:5000/api/process_email',
+        data,
+        { headers: { 'Content-Type': 'application/json' } }
+      );
+      return response.data;
+    }
   },
   hotels: {
     list: (params?: PaginationParams) => {

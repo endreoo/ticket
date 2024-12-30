@@ -2,32 +2,11 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { api } from '../lib/api';
 import toast from 'react-hot-toast';
-import { Mail, Paperclip, Loader, X, Search, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Loader, X, Search, ChevronLeft, ChevronRight, RefreshCw } from 'lucide-react';
 import { EmailView } from '../components/tickets/EmailView';
 import debounce from 'lodash/debounce';
-
-interface Ticket {
-  id: number;
-  subject: string;
-  message: string;
-  from_email?: string;
-  status: string;
-  priority?: string;
-  hotel_id?: number;
-  category: string;
-  created_at: string;
-  updated_at: string;
-  has_attachments?: boolean;
-  html_content?: string;
-  hotel_name?: string;
-}
-
-interface PaginationMetadata {
-  totalItems: number;
-  currentPage: number;
-  itemsPerPage: number;
-  totalPages: number;
-}
+import { Badge } from '../components/ui/badge';
+import type { Ticket } from '../types';
 
 export function TicketsPage() {
   const [tickets, setTickets] = useState<Ticket[]>([]);
@@ -39,6 +18,8 @@ export function TicketsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const { token } = useAuth();
   const currentSearchRef = useRef(searchTerm);
+  const [activeTab, setActiveTab] = useState('details');
+  const [analyzing, setAnalyzing] = useState<number | null>(null);
 
   const fetchTickets = async (pageNum: number, search?: string) => {
     try {
@@ -51,7 +32,16 @@ export function TicketsPage() {
       });
       console.log('API Response:', response);
       const { tickets: newTickets, pagination } = response;
-      setTickets(newTickets || []);
+      if (newTickets) {
+        setTickets(newTickets.map(ticket => ({
+          ...ticket,
+          sentiment: (ticket as any).sentiment || '0.5',
+          extracted_info: (ticket as any).extracted_info || '{}',
+          key_phrases: (ticket as any).key_phrases || '[]'
+        })));
+      } else {
+        setTickets([]);
+      }
       setTotal(pagination.totalItems);
     } catch (error) {
       console.error('Error fetching tickets:', error);
@@ -144,6 +134,38 @@ export function TicketsPage() {
     }
 
     return pages;
+  };
+
+  const handleAnalyze = async (ticket: Ticket) => {
+    try {
+      setAnalyzing(ticket.id);
+      
+      const result = await api.tickets.analyze({
+        subject: ticket.subject,
+        message: ticket.message,
+        from_email: ticket.from_email || ''
+      });
+      
+      console.log('Analysis result:', result);
+      
+      // Update ticket with analysis results
+      await api.tickets.update(ticket.id, {
+        sentiment: result.analysis.sentiment,
+        extracted_info: JSON.stringify(result.analysis.extracted_info || {}),
+        key_phrases: JSON.stringify(result.analysis.key_phrases || []),
+        bert_processed: true
+      });
+      
+      // Refresh the tickets list
+      await fetchTickets(page, currentSearchRef.current);
+      toast.success('Analysis completed successfully');
+      
+    } catch (error) {
+      console.error('Error analyzing ticket:', error);
+      toast.error('Failed to analyze ticket');
+    } finally {
+      setAnalyzing(null);
+    }
   };
 
   return (
@@ -305,36 +327,189 @@ export function TicketsPage() {
               </button>
             </div>
             
+            <div className="border-b border-gray-200">
+              <nav className="-mb-px flex space-x-8 px-6" aria-label="Tabs">
+                <button
+                  onClick={() => setActiveTab('details')}
+                  className={`${
+                    activeTab === 'details'
+                      ? 'border-[#00BCD4] text-[#00BCD4]'
+                      : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                  } whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium`}
+                >
+                  Details
+                </button>
+                <button
+                  onClick={() => setActiveTab('bert')}
+                  className={`${
+                    activeTab === 'bert'
+                      ? 'border-[#00BCD4] text-[#00BCD4]'
+                      : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+                  } whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium`}
+                >
+                  BERT Analysis
+                </button>
+              </nav>
+            </div>
+            
             <div className="p-6">
-              <EmailView
-                id={selectedTicket.id}
-                subject={selectedTicket.subject}
-                fromEmail={selectedTicket.from_email || ''}
-                message={selectedTicket.message}
-                htmlContent={selectedTicket.html_content}
-                hasAttachments={selectedTicket.has_attachments}
-                createdAt={selectedTicket.created_at}
-                hotelName={selectedTicket.hotel_name}
-                forceExpanded={true}
-                hideExpand={true}
-              />
-              
-              <div className="mt-6 space-y-4">
-                <h3 className="font-semibold text-lg">Actions</h3>
-                <div className="flex gap-3">
-                  <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
-                    Reply
-                  </button>
-                  <button className="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200">
-                    Forward
-                  </button>
-                  {selectedTicket.has_attachments && (
-                    <button className="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200">
-                      Download Attachments
-                    </button>
+              {activeTab === 'details' ? (
+                <>
+                  <EmailView
+                    id={selectedTicket.id}
+                    subject={selectedTicket.subject}
+                    fromEmail={selectedTicket.from_email || ''}
+                    message={selectedTicket.message}
+                    htmlContent={selectedTicket.html_content}
+                    hasAttachments={selectedTicket.has_attachments}
+                    createdAt={selectedTicket.created_at}
+                    hotelName={selectedTicket.hotel_name}
+                    forceExpanded={true}
+                    hideExpand={true}
+                  />
+                  
+                  <div className="mt-6 space-y-4">
+                    <h3 className="font-semibold text-lg">Actions</h3>
+                    <div className="flex gap-3">
+                      <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                        Reply
+                      </button>
+                      <button className="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200">
+                        Forward
+                      </button>
+                      {selectedTicket.has_attachments && (
+                        <button className="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200">
+                          Download Attachments
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <div className="p-6 space-y-6">
+                  {analyzing === selectedTicket.id ? (
+                    <div className="flex flex-col items-center justify-center py-12">
+                      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#00BCD4]"></div>
+                      <p className="mt-4 text-gray-500">Analyzing ticket...</p>
+                    </div>
+                  ) : (
+                    <>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="bg-white p-4 rounded-lg border border-gray-200">
+                          <h3 className="font-medium text-gray-900 mb-2">Category</h3>
+                          <div className="text-sm text-gray-500">
+                            <Badge variant={selectedTicket.category === 'booking' ? 'default' : 'secondary'}>
+                              {selectedTicket.category || 'Uncategorized'}
+                            </Badge>
+                          </div>
+                        </div>
+                        
+                        <div className="bg-white p-4 rounded-lg border border-gray-200">
+                          <h3 className="font-medium text-gray-900 mb-2">Priority</h3>
+                          <div className="text-sm text-gray-500">
+                            <Badge 
+                              variant={
+                                selectedTicket.priority === 'high' ? 'destructive' : 
+                                selectedTicket.priority === 'normal' ? 'default' : 
+                                'secondary'
+                              }
+                            >
+                              {selectedTicket.priority || 'Normal'}
+                            </Badge>
+                          </div>
+                        </div>
+                        
+                        <div className="bg-white p-4 rounded-lg border border-gray-200">
+                          <h3 className="font-medium text-gray-900 mb-2">Sentiment Score</h3>
+                          <div className="text-sm text-gray-500">
+                            {selectedTicket.sentiment && (
+                              <Badge 
+                                variant={
+                                  parseFloat(selectedTicket.sentiment) > 0.6 ? 'default' : 
+                                  parseFloat(selectedTicket.sentiment) < 0.4 ? 'destructive' : 
+                                  'secondary'
+                                }
+                              >
+                                {parseFloat(selectedTicket.sentiment).toFixed(2)}
+                              </Badge>
+                            )}
+                          </div>
+                        </div>
+                        
+                        <div className="bg-white p-4 rounded-lg border border-gray-200">
+                          <h3 className="font-medium text-gray-900 mb-2">Extracted Information</h3>
+                          <div className="text-sm text-gray-500 space-y-2">
+                            {(() => {
+                              try {
+                                const info = typeof selectedTicket.extracted_info === 'string' 
+                                  ? JSON.parse(selectedTicket.extracted_info) 
+                                  : selectedTicket.extracted_info || {};
+                                return (
+                                  <>
+                                    {info.hotel_name && (
+                                      <div>
+                                        <span className="font-medium">Hotel:</span> {info.hotel_name}
+                                      </div>
+                                    )}
+                                    {info.guest_name && (
+                                      <div>
+                                        <span className="font-medium">Guest:</span> {info.guest_name}
+                                      </div>
+                                    )}
+                                    {info.room_type && (
+                                      <div>
+                                        <span className="font-medium">Room:</span> {info.room_type}
+                                      </div>
+                                    )}
+                                    {info.dates?.length > 0 && (
+                                      <div>
+                                        <span className="font-medium">Dates:</span> {info.dates.join(' to ')}
+                                      </div>
+                                    )}
+                                  </>
+                                );
+                              } catch (error) {
+                                console.error('Error parsing extracted info:', error);
+                                return <div className="text-red-500">Error displaying information</div>;
+                              }
+                            })()}
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="bg-white p-4 rounded-lg border border-gray-200">
+                        <h3 className="font-medium text-gray-900 mb-2">Key Phrases</h3>
+                        <div className="flex flex-wrap gap-2">
+                          {(() => {
+                            try {
+                              const phrases = typeof selectedTicket.key_phrases === 'string' 
+                                ? JSON.parse(selectedTicket.key_phrases) 
+                                : selectedTicket.key_phrases || [];
+                              return phrases.map((phrase: string, index: number) => (
+                                <Badge key={index} variant="secondary">
+                                  {phrase}
+                                </Badge>
+                              ));
+                            } catch (error) {
+                              console.error('Error parsing key phrases:', error);
+                              return <div className="text-red-500">Error displaying key phrases</div>;
+                            }
+                          })()}
+                        </div>
+                      </div>
+                      
+                      <button 
+                        onClick={() => handleAnalyze(selectedTicket)}
+                        disabled={analyzing === selectedTicket.id}
+                        className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 disabled:opacity-50"
+                      >
+                        <RefreshCw className={`h-4 w-4 ${analyzing === selectedTicket.id ? 'animate-spin' : ''}`} />
+                        Reanalyze
+                      </button>
+                    </>
                   )}
                 </div>
-              </div>
+              )}
             </div>
           </div>
         </div>
